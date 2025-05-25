@@ -22,6 +22,18 @@ export default function ClassPage() {
       <p>Average Grade: {classData.averageGrade}</p>
       <p>Difficulty: {classData.difficulty}/5</p>
        <p>Average Professor Rating: {averageProfessorRating}</p>
+
+
+          <div>
+      <h3 className="font-semibold text-lg mb-2">Professors</h3>
+      <ul className="list-disc list-inside">
+        {classData.professors.map((prof, index) => (
+          <li key={index}>
+            {prof.name} — {prof.reviews} / 5 /** maybe put a link for each prof? */
+          </li>
+        ))}
+      </ul>
+    </div>
     </main>
   );
 }
