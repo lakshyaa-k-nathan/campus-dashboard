@@ -37,7 +37,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 */
 import type { NextApiRequest, NextApiResponse } from 'next';
-import classes from "../../../../../data/raw/classes.json";
+import classes from "../../data/raw/classes.json";
 
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
