@@ -21,5 +21,116 @@
     "professors": [
       { "name": "Dr. Allen", "reviews": 3.8 }
     ]
+  },
+  {
+    "id": 3,
+    "code": "PHYS211",
+    "name": "General Physics I",
+    "department": "Physics",
+    "averageGrade": "B+",
+    "difficulty": 4,
+    "professors": [
+      { "name": "Dr. Johnson", "reviews": 4.0 }
+    ]
+  },
+  {
+    "id": 4,
+    "code": "ENG100",
+    "name": "English Composition",
+    "department": "English",
+    "averageGrade": "A",
+    "difficulty": 2,
+    "professors": [
+      { "name": "Dr. Martinez", "reviews": 4.7 },
+      { "name": "Dr. Walker", "reviews": 4.4 }
+    ]
+  },
+  {
+    "id": 5,
+    "code": "CS173",
+    "name": "Discrete Structures",
+    "department": "Computer Science",
+    "averageGrade": "B-",
+    "difficulty": 4,
+    "professors": [
+      { "name": "Dr. Nguyen", "reviews": 4.1 }
+    ]
+  },
+  {
+    "id": 6,
+    "code": "STAT207",
+    "name": "Probability and Statistics",
+    "department": "Statistics",
+    "averageGrade": "B+",
+    "difficulty": 3,
+    "professors": [
+      { "name": "Dr. Patel", "reviews": 4.3 }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "BIO101",
+    "name": "Introduction to Biology",
+    "department": "Biology",
+    "averageGrade": "A-",
+    "difficulty": 3,
+    "professors": [
+      { "name": "Dr. Carter", "reviews": 4.0 }
+    ]
+  },
+  {
+    "id": 8,
+    "code": "ECON102",
+    "name": "Microeconomics",
+    "department": "Economics",
+    "averageGrade": "B",
+    "difficulty": 3,
+    "professors": [
+      { "name": "Dr. Green", "reviews": 3.9 }
+    ]
+  },
+  {
+    "id": 9,
+    "code": "HIST101",
+    "name": "World History",
+    "department": "History",
+    "averageGrade": "B+",
+    "difficulty": 2,
+    "professors": [
+      { "name": "Dr. Kim", "reviews": 4.2 }
+    ]
+  },
+  {
+    "id": 10,
+    "code": "CHEM102",
+    "name": "General Chemistry",
+    "department": "Chemistry",
+    "averageGrade": "B-",
+    "difficulty": 4,
+    "professors": [
+      { "name": "Dr. Singh", "reviews": 3.7 }
+    ]
+  },
+  {
+    "id": 11,
+    "code": "CS225",
+    "name": "Data Structures",
+    "department": "Computer Science",
+    "averageGrade": "B",
+    "difficulty": 4,
+    "professors": [
+      { "name": "Dr. Robinson", "reviews": 4.6 }
+    ]
+  },
+  {
+    "id": 12,
+    "code": "PHIL101",
+    "name": "Introduction to Philosophy",
+    "department": "Philosophy",
+    "averageGrade": "A",
+    "difficulty": 2,
+    "professors": [
+      { "name": "Dr. Thompson", "reviews": 4.8 }
+    ]
   }
 ]
