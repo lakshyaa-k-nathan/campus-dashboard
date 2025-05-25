@@ -76,10 +76,7 @@ export default function ProfSearch() {
                 {cls.code} - {cls.name}
               </Link>
             </h3>
-            <p>Department: {cls.department}</p>
-            <p>Average Grade: {cls.averageGrade}</p>
-            <p>Difficulty: {cls.difficulty}/5</p>
-            <p>Average Professor Rating: {cls.averageProfessorRating}</p>
+          
           </li>
         ))}
       </ul>
