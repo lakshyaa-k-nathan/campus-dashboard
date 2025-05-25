@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 interface Class {
   id: number;
@@ -17,7 +18,6 @@ export default function ProfSearch() {
   const [classes, setClasses] = useState<Class[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  
 
   useEffect(() => {
     if (query.trim() === "") {
@@ -46,6 +46,11 @@ export default function ProfSearch() {
       });
   }, [query]);
 
+  // Sort classes alphabetically by name before rendering
+  const sortedClasses = [...classes].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+
   return (
     <div className="p-4">
       <input
@@ -59,15 +64,17 @@ export default function ProfSearch() {
       {loading && <p>Loading...</p>}
       {error && <p className="text-red-500">{error}</p>}
 
-      {!loading && classes.length === 0 && query.trim() !== "" && (
+      {!loading && sortedClasses.length === 0 && query.trim() !== "" && (
         <p>No classes found.</p>
       )}
 
       <ul>
-        {classes.map((cls) => (
+        {sortedClasses.map((cls) => (
           <li key={cls.id} className="mb-4 border-b pb-2">
             <h3 className="font-bold text-lg">
-              {cls.code} - {cls.name}
+              <Link href={`/classes/${cls.code}`}>
+                {cls.code} - {cls.name}
+              </Link>
             </h3>
             <p>Department: {cls.department}</p>
             <p>Average Grade: {cls.averageGrade}</p>
