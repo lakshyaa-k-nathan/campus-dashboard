@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "code": "CS124",
+    "name": "Intro to Computer Science",
+    "department": "Computer Science",
+    "averageGrade": "A-",
+    "difficulty": 3,
+    "professors": [
+      { "name": "Dr. Smith", "reviews": 4.5 },
+      { "name": "Dr. Lee", "reviews": 4.2 }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "MATH241",
+    "name": "Calculus III",
+    "department": "Mathematics",
+    "averageGrade": "B",
+    "difficulty": 4,
+    "professors": [
+      { "name": "Dr. Allen", "reviews": 3.8 }
+    ]
+  }
+]
