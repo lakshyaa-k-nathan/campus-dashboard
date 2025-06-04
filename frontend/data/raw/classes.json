@@ -54,15 +54,11 @@
     "professors": [
       {
         "prof": "Zhang, Li",
-        "avggrade": 3.54
+        "avggrade": 3.59
       },
       {
         "prof": "Green, Danielle H",
         "avggrade": 3.67
-      },
-      {
-        "prof": "Zhang, Li",
-        "avggrade": 3.64
       }
     ]
   },
@@ -73,15 +69,7 @@
     "professors": [
       {
         "prof": "Fisher, Mitchell B",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Fisher, Mitchell B",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Fisher, Mitchell B",
-        "avggrade": 3.71
+        "avggrade": 3.5
       }
     ]
   },
@@ -92,15 +80,7 @@
     "professors": [
       {
         "prof": "Shapland, Julia P",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Shapland, Julia P",
-        "avggrade": 2.97
-      },
-      {
-        "prof": "Shapland, Julia P",
-        "avggrade": 3.62
+        "avggrade": 3.27
       }
     ]
   },
@@ -111,27 +91,15 @@
     "professors": [
       {
         "prof": "Pieper, Lena",
-        "avggrade": 3.55
+        "avggrade": 3.36
       },
       {
         "prof": "Johnson, Jennifer A",
-        "avggrade": 3.1
-      },
-      {
-        "prof": "Johnson, Jennifer A",
-        "avggrade": 3.17
+        "avggrade": 3.13
       },
       {
         "prof": "Mongold, Cassie A",
-        "avggrade": 3.52
-      },
-      {
-        "prof": "Pieper, Lena",
-        "avggrade": 3.17
-      },
-      {
-        "prof": "Mongold, Cassie A",
-        "avggrade": 3.29
+        "avggrade": 3.41
       }
     ]
   },
@@ -142,27 +110,11 @@
     "professors": [
       {
         "prof": "Sani, Jalal",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Sani, Jalal",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Sani, Jalal",
         "avggrade": 3.44
-      },
-      {
-        "prof": "Sani, Jalal",
-        "avggrade": 3.4
       },
       {
         "prof": "Samet, Jordan A",
         "avggrade": 3.31
-      },
-      {
-        "prof": "Sani, Jalal",
-        "avggrade": 3.28
       }
     ]
   },
@@ -173,27 +125,11 @@
     "professors": [
       {
         "prof": "Schwartz, Rachel",
-        "avggrade": 3.65
+        "avggrade": 3.33
       },
       {
         "prof": "Pachera, Susan",
         "avggrade": 3.33
-      },
-      {
-        "prof": "Schwartz, Rachel",
-        "avggrade": 2.68
-      },
-      {
-        "prof": "Schwartz, Rachel",
-        "avggrade": 3.66
-      },
-      {
-        "prof": "Pachera, Susan",
-        "avggrade": 3.35
-      },
-      {
-        "prof": "Pachera, Susan",
-        "avggrade": 3.32
       }
     ]
   },
@@ -204,27 +140,15 @@
     "professors": [
       {
         "prof": "Kink, Dawn M",
-        "avggrade": 3.42
+        "avggrade": 3.43
       },
       {
         "prof": "Hayne, Christie",
-        "avggrade": 3.34
-      },
-      {
-        "prof": "Hayne, Christie",
-        "avggrade": 3.28
-      },
-      {
-        "prof": "Kink, Dawn M",
-        "avggrade": 3.44
+        "avggrade": 3.33
       },
       {
         "prof": "Dahle, Andrew J",
         "avggrade": 3.37
-      },
-      {
-        "prof": "Hayne, Christie",
-        "avggrade": 3.36
       }
     ]
   },
@@ -235,23 +159,11 @@
     "professors": [
       {
         "prof": "Hutchens, Michelle L",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Hutchens, Michelle L",
-        "avggrade": 3.0
-      },
-      {
-        "prof": "Hutchens, Michelle L",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Osswald, Benjamin",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Osswald, Benjamin",
         "avggrade": 3.3
+      },
+      {
+        "prof": "Osswald, Benjamin",
+        "avggrade": 3.33
       },
       {
         "prof": "Holder, Charles B",
@@ -285,15 +197,11 @@
       },
       {
         "prof": "Ciconte, William",
-        "avggrade": 3.54
+        "avggrade": 3.33
       },
       {
         "prof": "Dahle, Andrew J",
         "avggrade": 3.51
-      },
-      {
-        "prof": "Ciconte, William",
-        "avggrade": 3.11
       }
     ]
   },
@@ -304,27 +212,15 @@
     "professors": [
       {
         "prof": "Kustanovich, Michael",
-        "avggrade": 3.32
+        "avggrade": 3.26
       },
       {
         "prof": "Steward, Cynthia G",
-        "avggrade": 3.13
+        "avggrade": 3.28
       },
       {
         "prof": "Chen, Ciao-Wei",
-        "avggrade": 3.33
-      },
-      {
-        "prof": "Kustanovich, Michael",
         "avggrade": 3.21
-      },
-      {
-        "prof": "Steward, Cynthia G",
-        "avggrade": 3.43
-      },
-      {
-        "prof": "Chen, Ciao-Wei",
-        "avggrade": 3.1
       }
     ]
   },
@@ -346,7 +242,7 @@
     "professors": [
       {
         "prof": "Alt, Amanda J",
-        "avggrade": 3.65
+        "avggrade": 3.58
       },
       {
         "prof": "Holder, Daniel E",
@@ -355,10 +251,6 @@
       {
         "prof": "Holder, Charles B",
         "avggrade": 3.64
-      },
-      {
-        "prof": "Alt, Amanda J",
-        "avggrade": 3.5
       }
     ]
   },
@@ -428,11 +320,7 @@
       },
       {
         "prof": "Chen, Xiaoling",
-        "avggrade": 3.8
-      },
-      {
-        "prof": "Chen, Xiaoling",
-        "avggrade": 3.42
+        "avggrade": 3.61
       }
     ]
   },
@@ -487,11 +375,7 @@
     "professors": [
       {
         "prof": "Persson, Martin E",
-        "avggrade": 3.47
-      },
-      {
-        "prof": "Persson, Martin E",
-        "avggrade": 3.4
+        "avggrade": 3.44
       }
     ]
   },
@@ -502,11 +386,7 @@
     "professors": [
       {
         "prof": "Wang, Wei",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Wang, Wei",
-        "avggrade": 3.78
+        "avggrade": 3.8
       }
     ]
   },
@@ -598,23 +478,11 @@
     "professors": [
       {
         "prof": "Penn, Michael W",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Penn, Michael W",
-        "avggrade": 3.97
-      },
-      {
-        "prof": "Zhu, Wei",
-        "avggrade": 3.8
+        "avggrade": 3.85
       },
       {
         "prof": "Zhu, Wei",
         "avggrade": 3.79
-      },
-      {
-        "prof": "Penn, Michael W",
-        "avggrade": 3.87
       }
     ]
   },
@@ -658,15 +526,7 @@
     "professors": [
       {
         "prof": "Gundersen, Lisa C",
-        "avggrade": 2.7
-      },
-      {
-        "prof": "Gundersen, Lisa C",
-        "avggrade": 3.33
-      },
-      {
-        "prof": "Gundersen, Lisa C",
-        "avggrade": 3.37
+        "avggrade": 3.13
       }
     ]
   },
@@ -1085,35 +945,19 @@
     "professors": [
       {
         "prof": "Du, Weiting",
-        "avggrade": 3.79
+        "avggrade": 3.83
       },
       {
         "prof": "Lyerla, Mackenzie M",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Du, Weiting",
-        "avggrade": 3.87
-      },
-      {
-        "prof": "Lyerla, Mackenzie M",
-        "avggrade": 3.87
+        "avggrade": 3.81
       },
       {
         "prof": "Liu, Yan",
+        "avggrade": 3.88
+      },
+      {
+        "prof": "Zhao, Zixuan",
         "avggrade": 3.85
-      },
-      {
-        "prof": "Zhao, Zixuan",
-        "avggrade": 3.95
-      },
-      {
-        "prof": "Liu, Yan",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Zhao, Zixuan",
-        "avggrade": 3.74
       }
     ]
   },
@@ -1135,11 +979,7 @@
     "professors": [
       {
         "prof": "Taneja, Harsh",
-        "avggrade": 3.13
-      },
-      {
-        "prof": "Taneja, Harsh",
-        "avggrade": 2.77
+        "avggrade": 2.95
       }
     ]
   },
@@ -1183,19 +1023,11 @@
     "professors": [
       {
         "prof": "Zhang, Shiyue",
-        "avggrade": 2.63
-      },
-      {
-        "prof": "Zhang, Shiyue",
-        "avggrade": 2.9
+        "avggrade": 2.76
       },
       {
         "prof": "Rahman, Nisa P",
-        "avggrade": 2.58
-      },
-      {
-        "prof": "Rahman, Nisa P",
-        "avggrade": 2.53
+        "avggrade": 2.55
       }
     ]
   },
@@ -1206,19 +1038,11 @@
     "professors": [
       {
         "prof": "Randolph, Zoe J",
-        "avggrade": 3.8
+        "avggrade": 3.79
       },
       {
         "prof": "Fukada, Masashi J",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Randolph, Zoe J",
-        "avggrade": 3.77
-      },
-      {
-        "prof": "Fukada, Masashi J",
-        "avggrade": 3.7
+        "avggrade": 3.63
       }
     ]
   },
@@ -1299,11 +1123,7 @@
     "professors": [
       {
         "prof": "Park, Se Il",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Park, Se Il",
-        "avggrade": 3.91
+        "avggrade": 3.72
       },
       {
         "prof": "Lee, Yujin",
@@ -1373,11 +1193,7 @@
     "professors": [
       {
         "prof": "Wirtz, John",
-        "avggrade": 3.08
-      },
-      {
-        "prof": "Wirtz, John",
-        "avggrade": 3.25
+        "avggrade": 3.17
       }
     ]
   },
@@ -1399,11 +1215,7 @@
     "professors": [
       {
         "prof": "Sar, Sela",
-        "avggrade": 3.45
-      },
-      {
-        "prof": "Sar, Sela",
-        "avggrade": 3.51
+        "avggrade": 3.48
       },
       {
         "prof": "Wise, Kevin R",
@@ -1473,11 +1285,7 @@
     "professors": [
       {
         "prof": "Wroblewski, Gabrielle E",
-        "avggrade": 3.78
-      },
-      {
-        "prof": "Wroblewski, Gabrielle E",
-        "avggrade": 3.84
+        "avggrade": 3.81
       }
     ]
   },
@@ -1855,11 +1663,7 @@
     "professors": [
       {
         "prof": "Richardson, Sarah D",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Richardson, Sarah D",
-        "avggrade": 3.77
+        "avggrade": 3.67
       }
     ]
   },
@@ -2002,39 +1806,15 @@
     "professors": [
       {
         "prof": "Wang, Yifan",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Wang, Yifan",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Vilchis, Sahara Z",
-        "avggrade": 3.63
-      },
-      {
-        "prof": "Long, Abby K",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Long, Abby K",
-        "avggrade": 3.67
-      },
-      {
-        "prof": "Long, Abby K",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Wang, Yifan",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Vilchis, Sahara Z",
-        "avggrade": 3.54
+        "avggrade": 3.7
       },
       {
         "prof": "Vilchis, Sahara Z",
         "avggrade": 3.58
+      },
+      {
+        "prof": "Long, Abby K",
+        "avggrade": 3.68
       }
     ]
   },
@@ -2045,27 +1825,11 @@
     "professors": [
       {
         "prof": "Naidoo, Navashni",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Naidoo, Navashni",
-        "avggrade": 3.3
+        "avggrade": 3.55
       },
       {
         "prof": "Goulding, Ella",
-        "avggrade": 3.68
-      },
-      {
-        "prof": "Goulding, Ella",
-        "avggrade": 3.9
-      },
-      {
-        "prof": "Goulding, Ella",
-        "avggrade": 3.65
-      },
-      {
-        "prof": "Doubles, Catherine Z",
-        "avggrade": 3.64
+        "avggrade": 3.74
       },
       {
         "prof": "Doubles, Catherine Z",
@@ -2532,11 +2296,7 @@
     "professors": [
       {
         "prof": "Winans, Amanda",
-        "avggrade": 3.33
-      },
-      {
-        "prof": "Winans, Amanda",
-        "avggrade": 2.9
+        "avggrade": 3.12
       }
     ]
   },
@@ -2569,11 +2329,7 @@
     "professors": [
       {
         "prof": "Young, Lisa M",
-        "avggrade": 3.16
-      },
-      {
-        "prof": "Young, Lisa M",
-        "avggrade": 3.07
+        "avggrade": 3.12
       }
     ]
   },
@@ -2683,11 +2439,7 @@
     "professors": [
       {
         "prof": "Pant, Shagun",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Pant, Shagun",
-        "avggrade": 3.5
+        "avggrade": 3.51
       }
     ]
   },
@@ -2698,11 +2450,11 @@
     "professors": [
       {
         "prof": "Liu, Zilong",
-        "avggrade": 3.85
+        "avggrade": 3.91
       },
       {
         "prof": "Ahsen, Mehmet E",
-        "avggrade": 3.85
+        "avggrade": 3.84
       },
       {
         "prof": "Moshref Javadi, Mohammad",
@@ -2713,20 +2465,8 @@
         "avggrade": 3.91
       },
       {
-        "prof": "Ahsen, Mehmet E",
-        "avggrade": 3.97
-      },
-      {
-        "prof": "Ahsen, Mehmet E",
-        "avggrade": 3.69
-      },
-      {
         "prof": "Haksoz, Cagri",
         "avggrade": 3.33
-      },
-      {
-        "prof": "Liu, Zilong",
-        "avggrade": 3.97
       }
     ]
   },
@@ -2737,35 +2477,15 @@
     "professors": [
       {
         "prof": "Han, Rongqing",
-        "avggrade": 3.5
+        "avggrade": 3.64
       },
       {
         "prof": "Liang, Hongyan",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Liang, Hongyan",
-        "avggrade": 3.73
-      },
-      {
-        "prof": "Liang, Hongyan",
-        "avggrade": 3.96
-      },
-      {
-        "prof": "Han, Rongqing",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "Han, Rongqing",
-        "avggrade": 3.68
+        "avggrade": 3.86
       },
       {
         "prof": "Baddam, Swathi Reddy",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Baddam, Swathi Reddy",
-        "avggrade": 3.85
+        "avggrade": 3.83
       }
     ]
   },
@@ -2806,15 +2526,7 @@
     "professors": [
       {
         "prof": "Gupta, Pranav",
-        "avggrade": 3.67
-      },
-      {
-        "prof": "Gupta, Pranav",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Gupta, Pranav",
-        "avggrade": 3.75
+        "avggrade": 3.76
       }
     ]
   },
@@ -2825,19 +2537,11 @@
     "professors": [
       {
         "prof": "Khessina, Olga",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Khessina, Olga",
-        "avggrade": 3.67
+        "avggrade": 3.73
       },
       {
         "prof": "Ryu, Jinah",
         "avggrade": 3.74
-      },
-      {
-        "prof": "Khessina, Olga",
-        "avggrade": 3.7
       }
     ]
   },
@@ -2859,11 +2563,7 @@
     "professors": [
       {
         "prof": "Loewenstein, Jeffrey",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Loewenstein, Jeffrey",
-        "avggrade": 3.31
+        "avggrade": 3.34
       }
     ]
   },
@@ -2900,11 +2600,7 @@
     "professors": [
       {
         "prof": "Raquel, Steve A",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Raquel, Steve A",
-        "avggrade": 3.79
+        "avggrade": 3.84
       }
     ]
   },
@@ -2913,10 +2609,6 @@
     "code": "BADM324",
     "name": "Purchasing and Supply Mgmnt",
     "professors": [
-      {
-        "prof": "Haksoz, Cagri",
-        "avggrade": 3.78
-      },
       {
         "prof": "Haksoz, Cagri",
         "avggrade": 3.79
@@ -3019,11 +2711,7 @@
     "professors": [
       {
         "prof": "Ghoshal, Abhijeet",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Ghoshal, Abhijeet",
-        "avggrade": 3.89
+        "avggrade": 3.86
       }
     ]
   },
@@ -3034,11 +2722,7 @@
     "professors": [
       {
         "prof": "Sumkin, Dmitrii",
-        "avggrade": 3.92
-      },
-      {
-        "prof": "Sumkin, Dmitrii",
-        "avggrade": 3.84
+        "avggrade": 3.88
       }
     ]
   },
@@ -3047,14 +2731,6 @@
     "code": "BADM352",
     "name": "Database Design and Management",
     "professors": [
-      {
-        "prof": "Garimella, Aravinda",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Garimella, Aravinda",
-        "avggrade": 3.9
-      },
       {
         "prof": "Garimella, Aravinda",
         "avggrade": 3.89
@@ -3069,10 +2745,6 @@
       {
         "prof": "Nelson, Matthew L",
         "avggrade": 3.94
-      },
-      {
-        "prof": "Nelson, Matthew L",
-        "avggrade": 3.93
       }
     ]
   },
@@ -3127,11 +2799,7 @@
     "professors": [
       {
         "prof": "Moshref Javadi, Mohammad",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Moshref Javadi, Mohammad",
-        "avggrade": 3.69
+        "avggrade": 3.7
       }
     ]
   },
@@ -3175,11 +2843,7 @@
     "professors": [
       {
         "prof": "Feng, Yilang",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Feng, Yilang",
-        "avggrade": 3.74
+        "avggrade": 3.83
       }
     ]
   },
@@ -3234,43 +2898,23 @@
     "professors": [
       {
         "prof": "Kim, Min Jung",
-        "avggrade": 3.66
+        "avggrade": 3.55
       },
       {
         "prof": "Shah, Sonali K",
-        "avggrade": 3.75
+        "avggrade": 3.59
       },
       {
         "prof": "Inoue, Carlos",
-        "avggrade": 3.68
-      },
-      {
-        "prof": "Shah, Sonali K",
-        "avggrade": 3.44
+        "avggrade": 3.78
       },
       {
         "prof": "Schijven, Mario P",
         "avggrade": 3.54
       },
       {
-        "prof": "Kim, Min Jung",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Inoue, Carlos",
-        "avggrade": 3.88
-      },
-      {
         "prof": "Park, Junbeom",
         "avggrade": 3.85
-      },
-      {
-        "prof": "Kim, Min Jung",
-        "avggrade": 3.41
-      },
-      {
-        "prof": "Inoue, Carlos",
-        "avggrade": 3.79
       }
     ]
   },
@@ -3303,11 +2947,7 @@
     "professors": [
       {
         "prof": "Bednar, Michael K",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Bednar, Michael K",
-        "avggrade": 3.68
+        "avggrade": 3.7
       }
     ]
   },
@@ -3318,11 +2958,7 @@
     "professors": [
       {
         "prof": "Noel, Hayden N",
-        "avggrade": 3.96
-      },
-      {
-        "prof": "Noel, Hayden N",
-        "avggrade": 3.67
+        "avggrade": 3.81
       }
     ]
   },
@@ -3355,11 +2991,7 @@
     "professors": [
       {
         "prof": "Roach, Michael",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Roach, Michael",
-        "avggrade": 3.65
+        "avggrade": 3.62
       }
     ]
   },
@@ -3374,11 +3006,7 @@
       },
       {
         "prof": "Corredor Waldro, Sandra T",
-        "avggrade": 3.93
-      },
-      {
-        "prof": "Corredor Waldro, Sandra T",
-        "avggrade": 3.91
+        "avggrade": 3.92
       }
     ]
   },
@@ -3387,10 +3015,6 @@
     "code": "BADM550",
     "name": "Business Practicum",
     "professors": [
-      {
-        "prof": "Khandelwal, Ashish",
-        "avggrade": 3.85
-      },
       {
         "prof": "Khandelwal, Ashish",
         "avggrade": 3.84
@@ -3474,11 +3098,7 @@
     "professors": [
       {
         "prof": "Anand, Gopesh J",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Anand, Gopesh J",
-        "avggrade": 3.61
+        "avggrade": 3.75
       }
     ]
   },
@@ -3489,11 +3109,7 @@
     "professors": [
       {
         "prof": "Taghaboni-Dutta, Fataneh",
-        "avggrade": 3.42
-      },
-      {
-        "prof": "Taghaboni-Dutta, Fataneh",
-        "avggrade": 3.27
+        "avggrade": 3.34
       }
     ]
   },
@@ -3548,19 +3164,11 @@
     "professors": [
       {
         "prof": "Kirci, Ismail",
-        "avggrade": 3.49
+        "avggrade": 3.63
       },
       {
         "prof": "Taghaboni-Dutta, Fataneh",
         "avggrade": 3.7
-      },
-      {
-        "prof": "Kirci, Ismail",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Kirci, Ismail",
-        "avggrade": 3.87
       }
     ]
   },
@@ -3571,11 +3179,7 @@
     "professors": [
       {
         "prof": "Bao, Ying",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Bao, Ying",
-        "avggrade": 3.91
+        "avggrade": 3.88
       }
     ]
   },
@@ -3674,11 +3278,7 @@
     "professors": [
       {
         "prof": "Carrasco Kind, Matias",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Carrasco Kind, Matias",
-        "avggrade": 3.91
+        "avggrade": 3.88
       }
     ]
   },
@@ -3880,7 +3480,7 @@
       },
       {
         "prof": "McGuire, Lee",
-        "avggrade": 3.51
+        "avggrade": 3.71
       },
       {
         "prof": "Bales, Amanda M",
@@ -3888,15 +3488,15 @@
       },
       {
         "prof": "Hapke, Gail L",
-        "avggrade": 3.9
+        "avggrade": 3.84
       },
       {
         "prof": "Holguin, Marilyn M",
-        "avggrade": 3.74
+        "avggrade": 3.81
       },
       {
         "prof": "Selznick, Hilary F",
-        "avggrade": 3.57
+        "avggrade": 3.62
       },
       {
         "prof": "Moss, Andrew P",
@@ -3907,40 +3507,12 @@
         "avggrade": 3.54
       },
       {
-        "prof": "Selznick, Hilary F",
-        "avggrade": 3.68
-      },
-      {
-        "prof": "McGuire, Lee",
-        "avggrade": 3.74
-      },
-      {
         "prof": "Short, Cassidy L",
         "avggrade": 3.94
       },
       {
-        "prof": "McGuire, Lee",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Hapke, Gail L",
-        "avggrade": 3.78
-      },
-      {
-        "prof": "McGuire, Lee",
-        "avggrade": 3.76
-      },
-      {
         "prof": "Bowman, Andrew J",
         "avggrade": 3.94
-      },
-      {
-        "prof": "Holguin, Marilyn M",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Grohens, Joseph",
-        "avggrade": 3.7
       }
     ]
   },
@@ -3951,27 +3523,15 @@
     "professors": [
       {
         "prof": "Ji, Mingshuang",
-        "avggrade": 3.98
-      },
-      {
-        "prof": "Ji, Mingshuang",
-        "avggrade": 3.91
+        "avggrade": 3.95
       },
       {
         "prof": "Kim, Heejin",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Kim, Heejin",
-        "avggrade": 3.92
+        "avggrade": 3.83
       },
       {
         "prof": "Szymanski, Michal",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Szymanski, Michal",
-        "avggrade": 3.79
+        "avggrade": 3.87
       }
     ]
   },
@@ -3986,19 +3546,11 @@
       },
       {
         "prof": "Keating, Kari H",
-        "avggrade": 3.85
+        "avggrade": 3.81
       },
       {
         "prof": "Noonan, James R",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Noonan, James R",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Keating, Kari H",
-        "avggrade": 3.77
+        "avggrade": 3.9
       }
     ]
   },
@@ -4157,11 +3709,7 @@
     "professors": [
       {
         "prof": "Ignacio, Ernest-John D",
-        "avggrade": 3.47
-      },
-      {
-        "prof": "Ignacio, Ernest-John D",
-        "avggrade": 3.57
+        "avggrade": 3.52
       }
     ]
   },
@@ -4495,19 +4043,11 @@
     "professors": [
       {
         "prof": "Gunasekera, Mutha Merenna",
-        "avggrade": 2.72
-      },
-      {
-        "prof": "Gunasekera, Mutha Merenna",
-        "avggrade": 2.69
+        "avggrade": 2.71
       },
       {
         "prof": "Hummel, Thomas J",
-        "avggrade": 2.56
-      },
-      {
-        "prof": "Hummel, Thomas J",
-        "avggrade": 2.5
+        "avggrade": 2.53
       },
       {
         "prof": "Huang, Tina H",
@@ -4533,19 +4073,11 @@
     "professors": [
       {
         "prof": "Andino Martinez, Jose G",
-        "avggrade": 2.06
+        "avggrade": 2.36
       },
       {
         "prof": "Ray, Christian R",
-        "avggrade": 2.83
-      },
-      {
-        "prof": "Ray, Christian R",
-        "avggrade": 2.71
-      },
-      {
-        "prof": "Andino Martinez, Jose G",
-        "avggrade": 2.66
+        "avggrade": 2.77
       }
     ]
   },
@@ -4611,11 +4143,7 @@
     "professors": [
       {
         "prof": "Axelson, Jordan C",
-        "avggrade": 2.54
-      },
-      {
-        "prof": "Axelson, Jordan C",
-        "avggrade": 2.91
+        "avggrade": 2.73
       }
     ]
   },
@@ -4626,11 +4154,7 @@
     "professors": [
       {
         "prof": "Formigao Gameir, Armanda",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Formigao Gameir, Armanda",
-        "avggrade": 3.92
+        "avggrade": 3.93
       }
     ]
   },
@@ -4685,11 +4209,7 @@
     "professors": [
       {
         "prof": "Moore, Jeffrey S",
-        "avggrade": 3.92
-      },
-      {
-        "prof": "Moore, Jeffrey S",
-        "avggrade": 3.65
+        "avggrade": 3.79
       }
     ]
   },
@@ -4899,11 +4419,7 @@
     "professors": [
       {
         "prof": "Grabert, Ren",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Grabert, Ren",
-        "avggrade": 3.41
+        "avggrade": 3.57
       }
     ]
   },
@@ -4914,11 +4430,7 @@
     "professors": [
       {
         "prof": "Greenwalt, Nancy H",
-        "avggrade": 3.55
-      },
-      {
-        "prof": "Greenwalt, Nancy H",
-        "avggrade": 3.38
+        "avggrade": 3.46
       }
     ]
   },
@@ -4929,11 +4441,7 @@
     "professors": [
       {
         "prof": "Bazan, Christy N",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Bazan, Christy N",
-        "avggrade": 3.46
+        "avggrade": 3.58
       }
     ]
   },
@@ -4970,11 +4478,7 @@
     "professors": [
       {
         "prof": "Freehill, Ariel N",
-        "avggrade": 3.9
-      },
-      {
-        "prof": "Freehill, Ariel N",
-        "avggrade": 3.77
+        "avggrade": 3.83
       }
     ]
   },
@@ -5303,11 +4807,7 @@
     "professors": [
       {
         "prof": "Filkins, Scott R",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Filkins, Scott R",
-        "avggrade": 3.85
+        "avggrade": 3.9
       }
     ]
   },
@@ -5340,11 +4840,7 @@
     "professors": [
       {
         "prof": "Warnement, Sophia I",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Warnement, Sophia I",
-        "avggrade": 3.67
+        "avggrade": 3.71
       }
     ]
   },
@@ -5366,23 +4862,15 @@
     "professors": [
       {
         "prof": "Yost, Franziska M",
-        "avggrade": 3.82
+        "avggrade": 3.53
       },
       {
         "prof": "Gregory, Jackson T",
-        "avggrade": 3.21
-      },
-      {
-        "prof": "Yost, Franziska M",
         "avggrade": 3.51
       },
       {
-        "prof": "Gregory, Jackson T",
-        "avggrade": 3.69
-      },
-      {
         "prof": "Fenton, Vaughn H",
-        "avggrade": 3.25
+        "avggrade": 3.31
       },
       {
         "prof": "Sotiroudis, Panagiotis",
@@ -5393,20 +4881,8 @@
         "avggrade": 3.64
       },
       {
-        "prof": "Yost, Franziska M",
-        "avggrade": 3.25
-      },
-      {
         "prof": "Mylli, Eleonora",
         "avggrade": 2.96
-      },
-      {
-        "prof": "Fenton, Vaughn H",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Gregory, Jackson T",
-        "avggrade": 3.63
       },
       {
         "prof": "Taavon, Modje",
@@ -5469,11 +4945,7 @@
       },
       {
         "prof": "McQueen, Kelli A",
-        "avggrade": 3.95
-      },
-      {
-        "prof": "Martinez, Jeffery D",
-        "avggrade": 3.96
+        "avggrade": 3.85
       },
       {
         "prof": "Hay, Brenden",
@@ -5481,15 +4953,7 @@
       },
       {
         "prof": "Fedjanina, Marija",
-        "avggrade": 3.8
-      },
-      {
-        "prof": "Fedjanina, Marija",
         "avggrade": 3.79
-      },
-      {
-        "prof": "McQueen, Kelli A",
-        "avggrade": 3.75
       },
       {
         "prof": "Stratton, Trevor R",
@@ -5526,15 +4990,11 @@
     "professors": [
       {
         "prof": "Balester, Nathan",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Balester, Nathan",
-        "avggrade": 3.17
+        "avggrade": 3.37
       },
       {
         "prof": "McGowan, Kathleen L",
-        "avggrade": 3.06
+        "avggrade": 3.22
       },
       {
         "prof": "Mulvaney, Adan",
@@ -5542,27 +5002,15 @@
       },
       {
         "prof": "St John, Jeremiah",
-        "avggrade": 3.42
+        "avggrade": 3.5
       },
       {
         "prof": "Stewart, Nathaniel M",
-        "avggrade": 2.54
+        "avggrade": 3.08
       },
       {
         "prof": "Gailey, Benjamin J",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "McGowan, Kathleen L",
-        "avggrade": 3.38
-      },
-      {
-        "prof": "St John, Jeremiah",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Stewart, Nathaniel M",
-        "avggrade": 3.62
+        "avggrade": 3.7
       },
       {
         "prof": "Caddell, Mackenzie E",
@@ -5570,7 +5018,7 @@
       },
       {
         "prof": "Okegbe, Samantha I",
-        "avggrade": 3.46
+        "avggrade": 3.5
       },
       {
         "prof": "Morrow, Ethan",
@@ -5582,35 +5030,19 @@
       },
       {
         "prof": "Faussane, Eleanor",
-        "avggrade": 3.2
-      },
-      {
-        "prof": "Okegbe, Samantha I",
-        "avggrade": 3.55
-      },
-      {
-        "prof": "Morrow, Ethan",
-        "avggrade": 3.11
-      },
-      {
-        "prof": "Gailey, Benjamin J",
-        "avggrade": 3.85
+        "avggrade": 3.41
       },
       {
         "prof": "Choudhry, Bisma N",
         "avggrade": 3.78
       },
       {
-        "prof": "Faussane, Eleanor",
-        "avggrade": 3.61
-      },
-      {
         "prof": "Alberti, George L",
-        "avggrade": 3.94
+        "avggrade": 3.9
       },
       {
         "prof": "Allegretti, Anne E",
-        "avggrade": 3.57
+        "avggrade": 3.67
       },
       {
         "prof": "Unruh, Margret",
@@ -5618,23 +5050,11 @@
       },
       {
         "prof": "Da Silva, Oxala",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Allegretti, Anne E",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Alberti, George L",
-        "avggrade": 3.89
+        "avggrade": 3.41
       },
       {
         "prof": "Persad-Maharaj, Tamara",
         "avggrade": 3.71
-      },
-      {
-        "prof": "Da Silva, Oxala",
-        "avggrade": 3.28
       },
       {
         "prof": "Bishop, Mardia J",
@@ -5643,10 +5063,6 @@
       {
         "prof": "Gallo, Franklin",
         "avggrade": 3.77
-      },
-      {
-        "prof": "Alberti, George L",
-        "avggrade": 3.88
       }
     ]
   },
@@ -5668,35 +5084,19 @@
     "professors": [
       {
         "prof": "Murphy, Margaret A",
-        "avggrade": 3.82
+        "avggrade": 3.83
       },
       {
         "prof": "Sanders, Jacob D",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Murphy, Margaret A",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Sanders, Jacob D",
-        "avggrade": 3.89
+        "avggrade": 3.9
       },
       {
         "prof": "Murphy, Kathleen B",
-        "avggrade": 3.91
+        "avggrade": 3.88
       },
       {
         "prof": "Kolson, Erica R",
-        "avggrade": 3.65
-      },
-      {
-        "prof": "Kolson, Erica R",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Murphy, Kathleen B",
-        "avggrade": 3.84
+        "avggrade": 3.78
       },
       {
         "prof": "Wright, Anna M",
@@ -5708,11 +5108,7 @@
       },
       {
         "prof": "Rahman, Mrittika A",
-        "avggrade": 3.87
-      },
-      {
-        "prof": "Rahman, Mrittika A",
-        "avggrade": 3.67
+        "avggrade": 3.77
       },
       {
         "prof": "McGuire, Maeve O",
@@ -5727,11 +5123,7 @@
     "professors": [
       {
         "prof": "Farrar, Cassidy L",
-        "avggrade": 3.35
-      },
-      {
-        "prof": "Farrar, Cassidy L",
-        "avggrade": 3.31
+        "avggrade": 3.33
       }
     ]
   },
@@ -5742,11 +5134,7 @@
     "professors": [
       {
         "prof": "Cunningham, Leanne M",
-        "avggrade": 3.6
-      },
-      {
-        "prof": "Cunningham, Leanne M",
-        "avggrade": 3.47
+        "avggrade": 3.54
       },
       {
         "prof": "Bunch, Caroline M",
@@ -5761,11 +5149,7 @@
     "professors": [
       {
         "prof": "Kim, Min Kyung",
-        "avggrade": 3.09
-      },
-      {
-        "prof": "Kim, Min Kyung",
-        "avggrade": 3.57
+        "avggrade": 3.33
       }
     ]
   },
@@ -5787,11 +5171,7 @@
     "professors": [
       {
         "prof": "Fields, Victoria T",
-        "avggrade": 3.17
-      },
-      {
-        "prof": "Fields, Victoria T",
-        "avggrade": 3.39
+        "avggrade": 3.28
       }
     ]
   },
@@ -5828,11 +5208,7 @@
     "professors": [
       {
         "prof": "Eberline, Ana Lisa P",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Eberline, Ana Lisa P",
-        "avggrade": 3.74
+        "avggrade": 3.62
       },
       {
         "prof": "Koven, Michele E",
@@ -5851,11 +5227,7 @@
       },
       {
         "prof": "Khanam, Shaimaa",
-        "avggrade": 3.55
-      },
-      {
-        "prof": "Khanam, Shaimaa",
-        "avggrade": 3.46
+        "avggrade": 3.5
       }
     ]
   },
@@ -5866,19 +5238,11 @@
     "professors": [
       {
         "prof": "Hartman, Daniel",
-        "avggrade": 2.7
-      },
-      {
-        "prof": "Hartman, Daniel",
-        "avggrade": 2.73
+        "avggrade": 2.71
       },
       {
         "prof": "Babu, Sara",
-        "avggrade": 3.16
-      },
-      {
-        "prof": "Babu, Sara",
-        "avggrade": 3.37
+        "avggrade": 3.27
       }
     ]
   },
@@ -5926,19 +5290,11 @@
     "professors": [
       {
         "prof": "Fujimoto, Elinor M",
-        "avggrade": 2.71
-      },
-      {
-        "prof": "Fujimoto, Elinor M",
-        "avggrade": 2.43
+        "avggrade": 2.57
       },
       {
         "prof": "Schneider, Abigail M",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Schneider, Abigail M",
-        "avggrade": 3.51
+        "avggrade": 3.52
       }
     ]
   },
@@ -5971,11 +5327,7 @@
     "professors": [
       {
         "prof": "Ramey, Mary E",
-        "avggrade": 3.44
-      },
-      {
-        "prof": "Ramey, Mary E",
-        "avggrade": 3.5
+        "avggrade": 3.47
       }
     ]
   },
@@ -5986,11 +5338,7 @@
     "professors": [
       {
         "prof": "Bigsby, Elisabeth",
-        "avggrade": 3.11
-      },
-      {
-        "prof": "Bigsby, Elisabeth",
-        "avggrade": 3.17
+        "avggrade": 3.14
       }
     ]
   },
@@ -6272,10 +5620,6 @@
         "avggrade": 3.25
       },
       {
-        "prof": "Cosman, Benjamin L",
-        "avggrade": 3.24
-      },
-      {
         "prof": "Balepur, Naina",
         "avggrade": 3.18
       }
@@ -6347,11 +5691,7 @@
     "professors": [
       {
         "prof": "Herman, Geoffrey L",
-        "avggrade": 3.67
-      },
-      {
-        "prof": "Herman, Geoffrey L",
-        "avggrade": 3.54
+        "avggrade": 3.6
       }
     ]
   },
@@ -6406,11 +5746,7 @@
     "professors": [
       {
         "prof": "Silva, Mariana T",
-        "avggrade": 3.43
-      },
-      {
-        "prof": "Silva, Mariana T",
-        "avggrade": 3.55
+        "avggrade": 3.49
       }
     ]
   },
@@ -6499,11 +5835,7 @@
     "professors": [
       {
         "prof": "Gunter, Elsa",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Gunter, Elsa",
-        "avggrade": 3.27
+        "avggrade": 3.42
       }
     ]
   },
@@ -6547,11 +5879,7 @@
     "professors": [
       {
         "prof": "Godfrey, Philip B",
-        "avggrade": 3.77
-      },
-      {
-        "prof": "Godfrey, Philip B",
-        "avggrade": 3.65
+        "avggrade": 3.71
       }
     ]
   },
@@ -6562,11 +5890,7 @@
     "professors": [
       {
         "prof": "Caesar, Matthew C",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Caesar, Matthew C",
-        "avggrade": 3.84
+        "avggrade": 3.88
       }
     ]
   },
@@ -6636,11 +5960,7 @@
     "professors": [
       {
         "prof": "Wang, Yuxiong",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Wang, Yuxiong",
-        "avggrade": 3.47
+        "avggrade": 3.52
       }
     ]
   },
@@ -6695,11 +6015,7 @@
     "professors": [
       {
         "prof": "Wang, Gang",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Wang, Gang",
-        "avggrade": 3.9
+        "avggrade": 3.86
       }
     ]
   },
@@ -6743,11 +6059,7 @@
     "professors": [
       {
         "prof": "Rauchwerger, Lawrence",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Rauchwerger, Lawrence",
-        "avggrade": 3.27
+        "avggrade": 3.32
       }
     ]
   },
@@ -6758,11 +6070,7 @@
     "professors": [
       {
         "prof": "Farivar, Reza",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Farivar, Reza",
-        "avggrade": 3.36
+        "avggrade": 3.46
       }
     ]
   },
@@ -7429,11 +6737,7 @@
     "professors": [
       {
         "prof": "Nguyen, Huyen T",
-        "avggrade": 3.26
-      },
-      {
-        "prof": "Nguyen, Huyen T",
-        "avggrade": 3.38
+        "avggrade": 3.32
       },
       {
         "prof": "Liang, Zhi-Pei",
@@ -7474,10 +6778,6 @@
         "avggrade": 3.77
       },
       {
-        "prof": "Hajek, Bruce",
-        "avggrade": 3.77
-      },
-      {
         "prof": "Iyer, Ravishankar K",
         "avggrade": 3.8
       }
@@ -7490,11 +6790,7 @@
     "professors": [
       {
         "prof": "Hillmer, Philip M",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Hillmer, Philip M",
-        "avggrade": 3.96
+        "avggrade": 3.88
       }
     ]
   },
@@ -7573,11 +6869,7 @@
     "professors": [
       {
         "prof": "Radhakrishnan, Chandrasek",
-        "avggrade": 3.38
-      },
-      {
-        "prof": "Radhakrishnan, Chandrasek",
-        "avggrade": 2.88
+        "avggrade": 3.13
       }
     ]
   },
@@ -7632,11 +6924,7 @@
     "professors": [
       {
         "prof": "Cheng, Zuofu",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Cheng, Zuofu",
-        "avggrade": 3.39
+        "avggrade": 3.54
       }
     ]
   },
@@ -7702,11 +6990,7 @@
     "professors": [
       {
         "prof": "Kumar, Rakesh",
-        "avggrade": 2.97
-      },
-      {
-        "prof": "Kumar, Rakesh",
-        "avggrade": 2.55
+        "avggrade": 2.76
       }
     ]
   },
@@ -8019,131 +7303,47 @@
     "professors": [
       {
         "prof": "Jung, Youngjoo",
-        "avggrade": 2.87
-      },
-      {
-        "prof": "Jung, Youngjoo",
-        "avggrade": 2.9
+        "avggrade": 2.88
       },
       {
         "prof": "Wang, Xiaohan",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Wang, Xiaohan",
-        "avggrade": 3.3
-      },
-      {
-        "prof": "Wang, Xiaohan",
-        "avggrade": 3.03
-      },
-      {
-        "prof": "Wang, Xiaohan",
-        "avggrade": 3.19
+        "avggrade": 3.27
       },
       {
         "prof": "Stechuk, Sunlee",
-        "avggrade": 3.0
-      },
-      {
-        "prof": "Stechuk, Sunlee",
-        "avggrade": 3.05
-      },
-      {
-        "prof": "Stechuk, Sunlee",
-        "avggrade": 3.08
+        "avggrade": 3.04
       },
       {
         "prof": "Dunets, Sofiia",
-        "avggrade": 2.63
-      },
-      {
-        "prof": "Dunets, Sofiia",
-        "avggrade": 2.85
+        "avggrade": 2.74
       },
       {
         "prof": "Hardiman, Allen",
-        "avggrade": 3.24
-      },
-      {
-        "prof": "Hardiman, Allen",
-        "avggrade": 3.17
-      },
-      {
-        "prof": "Hardiman, Allen",
-        "avggrade": 3.44
+        "avggrade": 3.28
       },
       {
         "prof": "Kim, Sarah J",
-        "avggrade": 2.8
-      },
-      {
-        "prof": "Kim, Sarah J",
-        "avggrade": 2.89
+        "avggrade": 2.84
       },
       {
         "prof": "Cueva Chavez, Ronald A",
-        "avggrade": 3.26
-      },
-      {
-        "prof": "Cueva Chavez, Ronald A",
-        "avggrade": 3.46
-      },
-      {
-        "prof": "Cueva Chavez, Ronald A",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Cueva Chavez, Ronald A",
-        "avggrade": 3.57
+        "avggrade": 3.42
       },
       {
         "prof": "Liu, Zichang",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Liu, Zichang",
-        "avggrade": 3.34
-      },
-      {
-        "prof": "Liu, Zichang",
-        "avggrade": 3.32
+        "avggrade": 3.41
       },
       {
         "prof": "Ambardar, Shivangi",
-        "avggrade": 3.33
-      },
-      {
-        "prof": "Ambardar, Shivangi",
-        "avggrade": 3.29
+        "avggrade": 3.31
       },
       {
         "prof": "Tang, Chenxi",
-        "avggrade": 3.21
-      },
-      {
-        "prof": "Tang, Chenxi",
-        "avggrade": 3.3
-      },
-      {
-        "prof": "Tang, Chenxi",
-        "avggrade": 3.18
-      },
-      {
-        "prof": "Han, Yuqing",
-        "avggrade": 3.46
+        "avggrade": 3.23
       },
       {
         "prof": "Han, Yuqing",
         "avggrade": 3.49
-      },
-      {
-        "prof": "Han, Yuqing",
-        "avggrade": 3.52
-      },
-      {
-        "prof": "Liu, Zichang",
-        "avggrade": 3.61
       }
     ]
   },
@@ -8154,31 +7354,15 @@
     "professors": [
       {
         "prof": "Simon, Pedro V",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "Simon, Pedro V",
-        "avggrade": 3.7
+        "avggrade": 3.73
       },
       {
         "prof": "Yedomiffi, Mahounan Patri",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Yedomiffi, Mahounan Patri",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "Yedomiffi, Mahounan Patri",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Yedomiffi, Mahounan Patri",
-        "avggrade": 3.58
+        "avggrade": 3.67
       },
       {
         "prof": "Arvind, Aditi",
-        "avggrade": 3.78
+        "avggrade": 3.74
       },
       {
         "prof": "Sadeghi, Mohammad",
@@ -8186,91 +7370,27 @@
       },
       {
         "prof": "Sun, Zhendong",
-        "avggrade": 3.42
-      },
-      {
-        "prof": "Sun, Zhendong",
-        "avggrade": 3.86
-      },
-      {
-        "prof": "Sun, Zhendong",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Sun, Zhendong",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Barreto Parra, Paula Nata",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Barreto Parra, Paula Nata",
-        "avggrade": 3.8
-      },
-      {
-        "prof": "Barreto Parra, Paula Nata",
-        "avggrade": 3.7
-      },
-      {
-        "prof": "Barreto Parra, Paula Nata",
-        "avggrade": 3.3
-      },
-      {
-        "prof": "Liu, Yiqiu",
-        "avggrade": 3.49
-      },
-      {
-        "prof": "Liu, Yiqiu",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Liu, Yiqiu",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Arvind, Aditi",
-        "avggrade": 3.7
-      },
-      {
-        "prof": "Adohinzin, Wilfried Doria",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Adohinzin, Wilfried Doria",
-        "avggrade": 3.8
-      },
-      {
-        "prof": "Adohinzin, Wilfried Doria",
-        "avggrade": 3.47
-      },
-      {
-        "prof": "Adohinzin, Wilfried Doria",
-        "avggrade": 3.21
-      },
-      {
-        "prof": "Niu, Mukun",
         "avggrade": 3.72
       },
       {
-        "prof": "Niu, Mukun",
-        "avggrade": 3.69
+        "prof": "Barreto Parra, Paula Nata",
+        "avggrade": 3.65
+      },
+      {
+        "prof": "Liu, Yiqiu",
+        "avggrade": 3.67
+      },
+      {
+        "prof": "Adohinzin, Wilfried Doria",
+        "avggrade": 3.58
       },
       {
         "prof": "Niu, Mukun",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Niu, Mukun",
-        "avggrade": 3.79
+        "avggrade": 3.75
       },
       {
         "prof": "Pu, Hongrui",
-        "avggrade": 3.4
-      },
-      {
-        "prof": "Pu, Hongrui",
-        "avggrade": 3.82
+        "avggrade": 3.61
       }
     ]
   },
@@ -8285,15 +7405,7 @@
       },
       {
         "prof": "Bhattacharjee, Sharanya",
-        "avggrade": 2.95
-      },
-      {
-        "prof": "Bhattacharjee, Sharanya",
         "avggrade": 2.97
-      },
-      {
-        "prof": "Bhattacharjee, Sharanya",
-        "avggrade": 2.98
       }
     ]
   },
@@ -8304,39 +7416,19 @@
     "professors": [
       {
         "prof": "Jeziorski, William S",
-        "avggrade": 3.06
-      },
-      {
-        "prof": "Jeziorski, William S",
-        "avggrade": 2.86
+        "avggrade": 2.96
       },
       {
         "prof": "Bao, Yu",
-        "avggrade": 2.97
+        "avggrade": 2.81
       },
       {
         "prof": "Samiahulin, Artem B",
-        "avggrade": 2.79
-      },
-      {
-        "prof": "Samiahulin, Artem B",
-        "avggrade": 3.19
-      },
-      {
-        "prof": "Bao, Yu",
-        "avggrade": 2.66
-      },
-      {
-        "prof": "Bao, Yu",
-        "avggrade": 2.8
+        "avggrade": 2.99
       },
       {
         "prof": "Shao, Dongning",
-        "avggrade": 2.84
-      },
-      {
-        "prof": "Shao, Dongning",
-        "avggrade": 2.67
+        "avggrade": 2.75
       }
     ]
   },
@@ -8347,23 +7439,11 @@
     "professors": [
       {
         "prof": "Benete Reis De, Sebastiao",
-        "avggrade": 3.14
-      },
-      {
-        "prof": "Benete Reis De, Sebastiao",
-        "avggrade": 2.77
-      },
-      {
-        "prof": "Bao, Yue",
-        "avggrade": 3.1
+        "avggrade": 2.96
       },
       {
         "prof": "Bao, Yue",
         "avggrade": 2.94
-      },
-      {
-        "prof": "Bao, Yue",
-        "avggrade": 2.77
       },
       {
         "prof": "Velentzas, Theodoros",
@@ -8371,15 +7451,7 @@
       },
       {
         "prof": "Hassani, Seyed Vahid",
-        "avggrade": 2.2
-      },
-      {
-        "prof": "Hassani, Seyed Vahid",
-        "avggrade": 2.47
-      },
-      {
-        "prof": "Hassani, Seyed Vahid",
-        "avggrade": 1.97
+        "avggrade": 2.21
       }
     ]
   },
@@ -8390,23 +7462,11 @@
     "professors": [
       {
         "prof": "Okada Da Silva, Vinicius",
-        "avggrade": 3.48
+        "avggrade": 3.51
       },
       {
-        "prof": "Okada Da Silva, Vinicius",
+        "prof": "Lin, Junze",
         "avggrade": 3.54
-      },
-      {
-        "prof": "Lin, Junze",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Lin, Junze",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Lin, Junze",
-        "avggrade": 3.5
       }
     ]
   },
@@ -8505,11 +7565,7 @@
     "professors": [
       {
         "prof": "Borgschulte, Mark",
-        "avggrade": 3.34
-      },
-      {
-        "prof": "Borgschulte, Mark",
-        "avggrade": 3.49
+        "avggrade": 3.42
       }
     ]
   },
@@ -8584,10 +7640,6 @@
     "code": "ECON484",
     "name": "Law and Economics",
     "professors": [
-      {
-        "prof": "Schultz, Colleen",
-        "avggrade": 3.84
-      },
       {
         "prof": "Schultz, Colleen",
         "avggrade": 3.83
@@ -8667,11 +7719,7 @@
     "professors": [
       {
         "prof": "Bilias, Ioannis",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Bilias, Ioannis",
-        "avggrade": 3.51
+        "avggrade": 3.37
       }
     ]
   },
@@ -8682,11 +7730,7 @@
     "professors": [
       {
         "prof": "Bera, Anil K",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Bera, Anil K",
-        "avggrade": 3.85
+        "avggrade": 3.72
       }
     ]
   },
@@ -8752,23 +7796,7 @@
     "professors": [
       {
         "prof": "Wilson, Asif J",
-        "avggrade": 3.96
-      },
-      {
-        "prof": "Wilson, Asif J",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Wilson, Asif J",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Wilson, Asif J",
-        "avggrade": 3.77
-      },
-      {
-        "prof": "Wilson, Asif J",
-        "avggrade": 3.67
+        "avggrade": 3.8
       }
     ]
   },
@@ -8845,11 +7873,7 @@
     "professors": [
       {
         "prof": "Powers, Kimberly",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Powers, Kimberly",
-        "avggrade": 3.96
+        "avggrade": 3.94
       }
     ]
   },
@@ -8890,11 +7914,7 @@
       },
       {
         "prof": "Shetina, Michael D",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Shetina, Michael D",
-        "avggrade": 3.79
+        "avggrade": 3.83
       }
     ]
   },
@@ -9152,11 +8172,7 @@
     "professors": [
       {
         "prof": "Hrubec, Deborah A",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Hrubec, Deborah A",
-        "avggrade": 3.56
+        "avggrade": 3.55
       }
     ]
   },
@@ -9377,15 +8393,7 @@
     "professors": [
       {
         "prof": "Tucker, Christina M",
-        "avggrade": 3.45
-      },
-      {
-        "prof": "Tucker, Christina M",
-        "avggrade": 3.42
-      },
-      {
-        "prof": "Tucker, Christina M",
-        "avggrade": 3.7
+        "avggrade": 3.52
       }
     ]
   },
@@ -9484,15 +8492,11 @@
     "professors": [
       {
         "prof": "Raskie, Sterling",
-        "avggrade": 3.81
+        "avggrade": 3.73
       },
       {
         "prof": "Mendelson, James E",
         "avggrade": 3.56
-      },
-      {
-        "prof": "Raskie, Sterling",
-        "avggrade": 3.65
       }
     ]
   },
@@ -9503,11 +8507,7 @@
     "professors": [
       {
         "prof": "McChristian, Lynne P",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "McChristian, Lynne P",
-        "avggrade": 3.4
+        "avggrade": 3.55
       }
     ]
   },
@@ -9518,15 +8518,11 @@
     "professors": [
       {
         "prof": "Perkins, Scott E",
-        "avggrade": 3.74
+        "avggrade": 3.83
       },
       {
         "prof": "Mendelson, James E",
         "avggrade": 3.75
-      },
-      {
-        "prof": "Perkins, Scott E",
-        "avggrade": 3.93
       }
     ]
   },
@@ -9537,23 +8533,11 @@
     "professors": [
       {
         "prof": "Peters, Stephen R",
-        "avggrade": 2.94
-      },
-      {
-        "prof": "Peters, Stephen R",
-        "avggrade": 2.3
-      },
-      {
-        "prof": "Peters, Stephen R",
-        "avggrade": 2.79
+        "avggrade": 2.68
       },
       {
         "prof": "Marcinkowski, Matthew M",
-        "avggrade": 3.28
-      },
-      {
-        "prof": "Marcinkowski, Matthew M",
-        "avggrade": 3.34
+        "avggrade": 3.31
       }
     ]
   },
@@ -9568,11 +8552,7 @@
       },
       {
         "prof": "Smith, Mark K",
-        "avggrade": 3.27
-      },
-      {
-        "prof": "Smith, Mark K",
-        "avggrade": 3.13
+        "avggrade": 3.2
       }
     ]
   },
@@ -9642,11 +8622,7 @@
     "professors": [
       {
         "prof": "Krueger, George J",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Krueger, George J",
-        "avggrade": 3.96
+        "avggrade": 3.95
       }
     ]
   },
@@ -9738,11 +8714,7 @@
     "professors": [
       {
         "prof": "Bertram, James M",
-        "avggrade": 3.68
-      },
-      {
-        "prof": "Bertram, James M",
-        "avggrade": 3.7
+        "avggrade": 3.69
       }
     ]
   },
@@ -9764,15 +8736,11 @@
     "professors": [
       {
         "prof": "Widdicks, Martin",
-        "avggrade": 3.45
+        "avggrade": 3.29
       },
       {
         "prof": "Marcinkowski, Matthew M",
         "avggrade": 3.83
-      },
-      {
-        "prof": "Widdicks, Martin",
-        "avggrade": 3.14
       }
     ]
   },
@@ -9816,11 +8784,7 @@
     "professors": [
       {
         "prof": "Spencer, Xiangyi X",
-        "avggrade": 3.77
-      },
-      {
-        "prof": "Spencer, Xiangyi X",
-        "avggrade": 3.14
+        "avggrade": 3.46
       }
     ]
   },
@@ -9853,11 +8817,7 @@
     "professors": [
       {
         "prof": "Brobst, Charles",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Brobst, Charles",
-        "avggrade": 3.93
+        "avggrade": 3.81
       }
     ]
   },
@@ -9901,11 +8861,7 @@
     "professors": [
       {
         "prof": "Vitek, Michael A",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Vitek, Michael A",
-        "avggrade": 3.92
+        "avggrade": 3.88
       }
     ]
   },
@@ -9916,11 +8872,7 @@
     "professors": [
       {
         "prof": "Pearson, Neil D",
-        "avggrade": 3.63
-      },
-      {
-        "prof": "Pearson, Neil D",
-        "avggrade": 3.48
+        "avggrade": 3.55
       }
     ]
   },
@@ -9931,11 +8883,7 @@
     "professors": [
       {
         "prof": "Gao, Xing",
-        "avggrade": 3.43
-      },
-      {
-        "prof": "Gao, Xing",
-        "avggrade": 3.66
+        "avggrade": 3.54
       }
     ]
   },
@@ -9955,10 +8903,6 @@
     "code": "FIN557",
     "name": "Financial Data Mgt. & Analysis",
     "professors": [
-      {
-        "prof": "Gao, Xing",
-        "avggrade": 3.67
-      },
       {
         "prof": "Gao, Xing",
         "avggrade": 3.67
@@ -9994,11 +8938,7 @@
     "professors": [
       {
         "prof": "Manouchehri Ira, Rustom D",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Manouchehri Ira, Rustom D",
-        "avggrade": 3.4
+        "avggrade": 3.5
       }
     ]
   },
@@ -10020,11 +8960,7 @@
     "professors": [
       {
         "prof": "Miller, Nolan H",
-        "avggrade": 3.48
-      },
-      {
-        "prof": "Miller, Nolan H",
-        "avggrade": 3.15
+        "avggrade": 3.31
       }
     ]
   },
@@ -10077,10 +9013,6 @@
     "code": "FSHN120",
     "name": "Contemporary Nutrition",
     "professors": [
-      {
-        "prof": "Gist, Toni M",
-        "avggrade": 3.74
-      },
       {
         "prof": "Gist, Toni M",
         "avggrade": 3.74
@@ -10303,15 +9235,7 @@
     "professors": [
       {
         "prof": "Cohen, Jared E",
-        "avggrade": 3.13
-      },
-      {
-        "prof": "Cohen, Jared E",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Cohen, Jared E",
-        "avggrade": 3.41
+        "avggrade": 3.36
       }
     ]
   },
@@ -10458,11 +9382,7 @@
       },
       {
         "prof": "Holmes, Joshua S",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Holmes, Joshua S",
-        "avggrade": 3.79
+        "avggrade": 3.74
       }
     ]
   },
@@ -10506,11 +9426,7 @@
     "professors": [
       {
         "prof": "Williams, Nashea N",
-        "avggrade": 3.07
-      },
-      {
-        "prof": "Williams, Nashea N",
-        "avggrade": 2.74
+        "avggrade": 2.91
       }
     ]
   },
@@ -10929,27 +9845,11 @@
     "professors": [
       {
         "prof": "Runnels, Nathan",
-        "avggrade": 3.46
+        "avggrade": 3.51
       },
       {
         "prof": "Eagle, Jennie",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Runnels, Nathan",
-        "avggrade": 3.52
-      },
-      {
-        "prof": "Runnels, Nathan",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Eagle, Jennie",
-        "avggrade": 3.79
-      },
-      {
-        "prof": "Eagle, Jennie",
-        "avggrade": 3.7
+        "avggrade": 3.75
       }
     ]
   },
@@ -10982,11 +9882,7 @@
     "professors": [
       {
         "prof": "Stec, Andrew J",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Stec, Andrew J",
-        "avggrade": 3.59
+        "avggrade": 3.56
       }
     ]
   },
@@ -11262,22 +10158,6 @@
       {
         "prof": "Clegg, Benjamin F",
         "avggrade": 3.89
-      },
-      {
-        "prof": "Clegg, Benjamin F",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Clegg, Benjamin F",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Clegg, Benjamin F",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Clegg, Benjamin F",
-        "avggrade": 3.94
       }
     ]
   },
@@ -11637,11 +10517,7 @@
     "professors": [
       {
         "prof": "DiFilippo, Kristen N",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "DiFilippo, Kristen N",
-        "avggrade": 3.89
+        "avggrade": 3.82
       }
     ]
   },
@@ -11652,11 +10528,7 @@
     "professors": [
       {
         "prof": "Frasca, Elizabeth A",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Frasca, Elizabeth A",
-        "avggrade": 3.98
+        "avggrade": 3.84
       }
     ]
   },
@@ -11668,10 +10540,6 @@
       {
         "prof": "Frasca, Elizabeth A",
         "avggrade": 3.87
-      },
-      {
-        "prof": "Frasca, Elizabeth A",
-        "avggrade": 3.86
       }
     ]
   },
@@ -11811,11 +10679,7 @@
     "professors": [
       {
         "prof": "Wickes, Elizabeth D",
-        "avggrade": 3.4
-      },
-      {
-        "prof": "Wickes, Elizabeth D",
-        "avggrade": 3.42
+        "avggrade": 3.41
       }
     ]
   },
@@ -11893,11 +10757,7 @@
     "professors": [
       {
         "prof": "Mussulman, David E",
-        "avggrade": 3.31
-      },
-      {
-        "prof": "Mussulman, David E",
-        "avggrade": 3.63
+        "avggrade": 3.47
       },
       {
         "prof": "McLellan, Amanda H",
@@ -11912,11 +10772,7 @@
     "professors": [
       {
         "prof": "Duffy, Damian S",
-        "avggrade": 3.54
-      },
-      {
-        "prof": "Duffy, Damian S",
-        "avggrade": 3.87
+        "avggrade": 3.71
       }
     ]
   },
@@ -12420,15 +11276,11 @@
     "professors": [
       {
         "prof": "North, Jonathan R",
-        "avggrade": 3.71
+        "avggrade": 3.75
       },
       {
         "prof": "Woods, Mary E",
         "avggrade": 3.77
-      },
-      {
-        "prof": "North, Jonathan R",
-        "avggrade": 3.8
       },
       {
         "prof": "Szamocki, Madelyn R",
@@ -12454,15 +11306,7 @@
     "professors": [
       {
         "prof": "Voss, Stephanie M",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Voss, Stephanie M",
-        "avggrade": 3.86
-      },
-      {
-        "prof": "Voss, Stephanie M",
-        "avggrade": 3.96
+        "avggrade": 3.9
       }
     ]
   },
@@ -12484,11 +11328,7 @@
     "professors": [
       {
         "prof": "Choi, Jihoon",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Choi, Jihoon",
-        "avggrade": 3.96
+        "avggrade": 3.88
       },
       {
         "prof": "Guo, Jiaqi",
@@ -12503,55 +11343,7 @@
     "professors": [
       {
         "prof": "Clarke, Caitlin L",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.93
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.87
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.86
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.95
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.65
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.73
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Clarke, Caitlin L",
-        "avggrade": 3.69
+        "avggrade": 3.77
       }
     ]
   },
@@ -12562,11 +11354,7 @@
     "professors": [
       {
         "prof": "Ensign, Julene M",
-        "avggrade": 3.86
-      },
-      {
-        "prof": "Ensign, Julene M",
-        "avggrade": 3.76
+        "avggrade": 3.81
       }
     ]
   },
@@ -12590,10 +11378,6 @@
     "code": "KIN109",
     "name": "Volleyball",
     "professors": [
-      {
-        "prof": "Huang, Kathryn F",
-        "avggrade": 3.94
-      },
       {
         "prof": "Huang, Kathryn F",
         "avggrade": 3.94
@@ -12986,51 +11770,7 @@
     "professors": [
       {
         "prof": "Friedman, Roman",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.87
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.84
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.97
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.26
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.46
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.66
-      },
-      {
-        "prof": "Friedman, Roman",
-        "avggrade": 3.69
+        "avggrade": 3.61
       }
     ]
   },
@@ -13133,10 +11873,6 @@
     "professors": [
       {
         "prof": "Mazzone, Jason",
-        "avggrade": 3.2
-      },
-      {
-        "prof": "Mazzone, Jason",
         "avggrade": 3.21
       },
       {
@@ -13214,10 +11950,6 @@
     "code": "LAW633",
     "name": "Business Associations",
     "professors": [
-      {
-        "prof": "McClane, Jeremy",
-        "avggrade": 3.45
-      },
       {
         "prof": "McClane, Jeremy",
         "avggrade": 3.45
@@ -13408,10 +12140,6 @@
       {
         "prof": "Aviram, Amitai",
         "avggrade": 3.41
-      },
-      {
-        "prof": "Aviram, Amitai",
-        "avggrade": 3.41
       }
     ]
   },
@@ -13455,11 +12183,7 @@
     "professors": [
       {
         "prof": "Smist, Jennifer A",
-        "avggrade": 3.41
-      },
-      {
-        "prof": "Smist, Jennifer A",
-        "avggrade": 3.68
+        "avggrade": 3.54
       }
     ]
   },
@@ -13723,11 +12447,7 @@
     "professors": [
       {
         "prof": "Alvarez, Lydia S",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Alvarez, Lydia S",
-        "avggrade": 3.7
+        "avggrade": 3.81
       },
       {
         "prof": "Gaytan, Luis D",
@@ -13786,11 +12506,7 @@
     "professors": [
       {
         "prof": "Garcia Rojas, Margarita",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Garcia Rojas, Margarita",
-        "avggrade": 3.59
+        "avggrade": 3.64
       }
     ]
   },
@@ -13842,35 +12558,23 @@
       },
       {
         "prof": "Ji, Ruochong",
-        "avggrade": 3.86
+        "avggrade": 3.83
       },
       {
         "prof": "Zhou, Nini",
-        "avggrade": 3.93
+        "avggrade": 3.87
       },
       {
         "prof": "Cintron, Jennifer E",
-        "avggrade": 3.88
-      },
-      {
-        "prof": "Cintron, Jennifer E",
-        "avggrade": 3.94
+        "avggrade": 3.91
       },
       {
         "prof": "Gupta, Namita",
         "avggrade": 3.83
       },
       {
-        "prof": "Zhou, Nini",
-        "avggrade": 3.8
-      },
-      {
         "prof": "Chang, Jiyeon",
         "avggrade": 3.88
-      },
-      {
-        "prof": "Ji, Ruochong",
-        "avggrade": 3.81
       }
     ]
   },
@@ -13881,51 +12585,27 @@
     "professors": [
       {
         "prof": "Cano, Ariana A",
-        "avggrade": 3.72
+        "avggrade": 3.57
       },
       {
         "prof": "Helmke, William H",
-        "avggrade": 3.32
+        "avggrade": 3.5
       },
       {
         "prof": "Gao, Yiran",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Gao, Yiran",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Cano, Ariana A",
-        "avggrade": 3.42
+        "avggrade": 3.81
       },
       {
         "prof": "Robinson, Jessica L",
-        "avggrade": 3.91
+        "avggrade": 3.92
       },
       {
         "prof": "Kang, Youngin",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "Kang, Youngin",
-        "avggrade": 3.16
-      },
-      {
-        "prof": "Robinson, Jessica L",
-        "avggrade": 3.93
+        "avggrade": 3.46
       },
       {
         "prof": "Carrillo Fuchs, David E",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Carrillo Fuchs, David E",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Helmke, William H",
-        "avggrade": 3.67
+        "avggrade": 3.62
       }
     ]
   },
@@ -14138,11 +12818,7 @@
     "professors": [
       {
         "prof": "Ivanov, Sergei V",
-        "avggrade": 3.08
-      },
-      {
-        "prof": "Ivanov, Sergei V",
-        "avggrade": 3.32
+        "avggrade": 3.2
       }
     ]
   },
@@ -14153,11 +12829,7 @@
     "professors": [
       {
         "prof": "Hoffmeister, April M",
-        "avggrade": 2.58
-      },
-      {
-        "prof": "Hoffmeister, April M",
-        "avggrade": 2.87
+        "avggrade": 2.73
       },
       {
         "prof": "Srikant, Jenny J",
@@ -14202,15 +12874,7 @@
       },
       {
         "prof": "Bahreini Esfaha, Manijeh",
-        "avggrade": 3.34
-      },
-      {
-        "prof": "Bahreini Esfaha, Manijeh",
-        "avggrade": 3.37
-      },
-      {
-        "prof": "Bahreini Esfaha, Manijeh",
-        "avggrade": 3.09
+        "avggrade": 3.27
       },
       {
         "prof": "Liu, Yichen",
@@ -14236,19 +12900,11 @@
     "professors": [
       {
         "prof": "Russell, Matthew C",
-        "avggrade": 3.03
-      },
-      {
-        "prof": "Russell, Matthew C",
-        "avggrade": 3.05
+        "avggrade": 3.04
       },
       {
         "prof": "Petrickova, Sarka",
         "avggrade": 3.0
-      },
-      {
-        "prof": "Petrickova, Sarka",
-        "avggrade": 3.01
       }
     ]
   },
@@ -14259,27 +12915,15 @@
     "professors": [
       {
         "prof": "Chuang, Jer-Chin",
-        "avggrade": 3.03
-      },
-      {
-        "prof": "Chuang, Jer-Chin",
-        "avggrade": 3.05
+        "avggrade": 3.04
       },
       {
         "prof": "Leditzky, Felix",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Leditzky, Felix",
-        "avggrade": 3.17
+        "avggrade": 3.2
       },
       {
         "prof": "Luecke, Kiran D",
-        "avggrade": 3.14
-      },
-      {
-        "prof": "Luecke, Kiran D",
-        "avggrade": 3.18
+        "avggrade": 3.16
       }
     ]
   },
@@ -14290,23 +12934,11 @@
     "professors": [
       {
         "prof": "Albin, Pierre",
-        "avggrade": 3.48
-      },
-      {
-        "prof": "Albin, Pierre",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Manfroi, Aldo J",
-        "avggrade": 3.52
+        "avggrade": 3.5
       },
       {
         "prof": "Manfroi, Aldo J",
         "avggrade": 3.55
-      },
-      {
-        "prof": "Manfroi, Aldo J",
-        "avggrade": 3.59
       }
     ]
   },
@@ -14320,10 +12952,6 @@
         "avggrade": 3.08
       },
       {
-        "prof": "Na, Xuesen",
-        "avggrade": 3.07
-      },
-      {
         "prof": "Jiang, Yucong",
         "avggrade": 3.72
       },
@@ -14333,15 +12961,11 @@
       },
       {
         "prof": "Fernando, Ravi K",
-        "avggrade": 3.3
+        "avggrade": 3.21
       },
       {
         "prof": "Ford, Kevin",
         "avggrade": 3.32
-      },
-      {
-        "prof": "Fernando, Ravi K",
-        "avggrade": 3.12
       }
     ]
   },
@@ -14374,11 +12998,7 @@
     "professors": [
       {
         "prof": "Kostochka, Alexandr V",
-        "avggrade": 2.99
-      },
-      {
-        "prof": "Kostochka, Alexandr V",
-        "avggrade": 3.59
+        "avggrade": 3.29
       }
     ]
   },
@@ -14415,7 +13035,7 @@
       },
       {
         "prof": "Di Francesco, Philippe",
-        "avggrade": 3.74
+        "avggrade": 3.52
       },
       {
         "prof": "Zhang, Hao",
@@ -14424,10 +13044,6 @@
       {
         "prof": "Kerman, Ely",
         "avggrade": 2.73
-      },
-      {
-        "prof": "Di Francesco, Philippe",
-        "avggrade": 3.3
       }
     ]
   },
@@ -14486,11 +13102,7 @@
     "professors": [
       {
         "prof": "Tzirakis, Nikolaos",
-        "avggrade": 3.25
-      },
-      {
-        "prof": "Tzirakis, Nikolaos",
-        "avggrade": 3.04
+        "avggrade": 3.15
       },
       {
         "prof": "Cho, Soobin",
@@ -14716,23 +13328,7 @@
     "professors": [
       {
         "prof": "Alt, Renee L",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Alt, Renee L",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Alt, Renee L",
-        "avggrade": 3.91
-      },
-      {
-        "prof": "Alt, Renee L",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Alt, Renee L",
-        "avggrade": 3.74
+        "avggrade": 3.8
       }
     ]
   },
@@ -14743,91 +13339,7 @@
     "professors": [
       {
         "prof": "Reedy, Melissa M",
-        "avggrade": 2.8
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.87
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.95
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.87
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.91
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.65
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.94
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.04
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.91
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.87
-      },
-      {
-        "prof": "Reedy, Melissa M",
         "avggrade": 2.88
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.22
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.06
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.5
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.69
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.45
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.82
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.86
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.8
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.7
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.11
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 2.5
       }
     ]
   },
@@ -14838,19 +13350,7 @@
     "professors": [
       {
         "prof": "Reedy, Melissa M",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Reedy, Melissa M",
         "avggrade": 3.9
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.95
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.91
       }
     ]
   },
@@ -14872,63 +13372,7 @@
     "professors": [
       {
         "prof": "Joesting, Jennifer J",
-        "avggrade": 3.48
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.52
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.49
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.45
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.48
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.46
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.7
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.39
-      },
-      {
-        "prof": "Joesting, Jennifer J",
-        "avggrade": 3.39
+        "avggrade": 3.51
       }
     ]
   },
@@ -14939,27 +13383,7 @@
     "professors": [
       {
         "prof": "Kirchner, Nicholas C",
-        "avggrade": 2.77
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.19
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 2.82
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 2.05
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 2.77
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 2.21
+        "avggrade": 2.63
       }
     ]
   },
@@ -14970,27 +13394,7 @@
     "professors": [
       {
         "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.32
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.35
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.3
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.46
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.13
-      },
-      {
-        "prof": "Kirchner, Nicholas C",
-        "avggrade": 3.46
+        "avggrade": 3.34
       }
     ]
   },
@@ -15001,43 +13405,7 @@
     "professors": [
       {
         "prof": "Good, Elizabeth A",
-        "avggrade": 3.5
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.43
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.65
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.45
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.22
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 2.86
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.19
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.64
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.51
+        "avggrade": 3.38
       }
     ]
   },
@@ -15048,31 +13416,7 @@
     "professors": [
       {
         "prof": "Good, Elizabeth A",
-        "avggrade": 3.9
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.92
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.78
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.93
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Good, Elizabeth A",
-        "avggrade": 3.97
+        "avggrade": 3.88
       }
     ]
   },
@@ -15105,27 +13449,7 @@
     "professors": [
       {
         "prof": "Rivier, David H",
-        "avggrade": 2.72
-      },
-      {
-        "prof": "Rivier, David H",
-        "avggrade": 2.79
-      },
-      {
-        "prof": "Rivier, David H",
-        "avggrade": 2.89
-      },
-      {
-        "prof": "Rivier, David H",
-        "avggrade": 2.85
-      },
-      {
-        "prof": "Rivier, David H",
-        "avggrade": 2.63
-      },
-      {
-        "prof": "Rivier, David H",
-        "avggrade": 3.14
+        "avggrade": 2.84
       }
     ]
   },
@@ -15136,11 +13460,7 @@
     "professors": [
       {
         "prof": "Reedy, Melissa M",
-        "avggrade": 2.72
-      },
-      {
-        "prof": "Reedy, Melissa M",
-        "avggrade": 3.46
+        "avggrade": 3.09
       }
     ]
   },
@@ -15358,15 +13678,11 @@
     "professors": [
       {
         "prof": "Cai, Lili",
-        "avggrade": 3.62
+        "avggrade": 3.4
       },
       {
         "prof": "Saif, Md Taher A",
         "avggrade": 3.7
-      },
-      {
-        "prof": "Cai, Lili",
-        "avggrade": 3.18
       }
     ]
   },
@@ -15392,15 +13708,11 @@
     "professors": [
       {
         "prof": "Dullerud, Geir E",
-        "avggrade": 3.18
+        "avggrade": 3.45
       },
       {
         "prof": "Bentsman, Joseph",
         "avggrade": 3.67
-      },
-      {
-        "prof": "Dullerud, Geir E",
-        "avggrade": 3.71
       }
     ]
   },
@@ -15470,11 +13782,7 @@
     "professors": [
       {
         "prof": "Johnson, Blake E",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Johnson, Blake E",
-        "avggrade": 3.71
+        "avggrade": 3.78
       }
     ]
   },
@@ -16370,10 +14678,6 @@
       {
         "prof": "Ansell, Katherine A",
         "avggrade": 3.28
-      },
-      {
-        "prof": "Ansell, Katherine A",
-        "avggrade": 3.28
       }
     ]
   },
@@ -16384,11 +14688,7 @@
     "professors": [
       {
         "prof": "Holder, Gilbert",
-        "avggrade": 3.15
-      },
-      {
-        "prof": "Holder, Gilbert",
-        "avggrade": 2.99
+        "avggrade": 3.07
       }
     ]
   },
@@ -16399,19 +14699,11 @@
     "professors": [
       {
         "prof": "Stelzer, Timothy J",
-        "avggrade": 3.02
-      },
-      {
-        "prof": "Stelzer, Timothy J",
         "avggrade": 3.01
       },
       {
         "prof": "Willenbrock, Scott S",
-        "avggrade": 2.87
-      },
-      {
-        "prof": "Willenbrock, Scott S",
-        "avggrade": 2.93
+        "avggrade": 2.9
       }
     ]
   },
@@ -16422,11 +14714,7 @@
     "professors": [
       {
         "prof": "Kwiat, Paul G",
-        "avggrade": 3.15
-      },
-      {
-        "prof": "Kwiat, Paul G",
-        "avggrade": 2.89
+        "avggrade": 3.02
       },
       {
         "prof": "Koptieva, Olena",
@@ -16441,15 +14729,7 @@
     "professors": [
       {
         "prof": "Covey, Jacob P",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Covey, Jacob P",
         "avggrade": 3.47
-      },
-      {
-        "prof": "Covey, Jacob P",
-        "avggrade": 3.43
       }
     ]
   },
@@ -16460,11 +14740,7 @@
     "professors": [
       {
         "prof": "Covey, Jacob P",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Covey, Jacob P",
-        "avggrade": 3.42
+        "avggrade": 3.5
       },
       {
         "prof": "Tsokaros, Antonios",
@@ -16964,67 +15240,7 @@
     "professors": [
       {
         "prof": "Travis, Lisa L",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.6
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.45
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.65
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.59
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.55
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.5
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.76
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.7
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Travis, Lisa L",
-        "avggrade": 3.61
+        "avggrade": 3.63
       }
     ]
   },
@@ -17035,7 +15251,7 @@
     "professors": [
       {
         "prof": "Conroy, Karl E",
-        "avggrade": 3.33
+        "avggrade": 3.28
       },
       {
         "prof": "Cho, Haram",
@@ -17047,15 +15263,7 @@
       },
       {
         "prof": "Fu, Hsiao-Ting",
-        "avggrade": 2.99
-      },
-      {
-        "prof": "Fu, Hsiao-Ting",
-        "avggrade": 3.06
-      },
-      {
-        "prof": "Conroy, Karl E",
-        "avggrade": 3.22
+        "avggrade": 3.03
       }
     ]
   },
@@ -17099,11 +15307,7 @@
     "professors": [
       {
         "prof": "Lleras Buetti, Simona",
-        "avggrade": 3.31
-      },
-      {
-        "prof": "Lleras Buetti, Simona",
-        "avggrade": 3.65
+        "avggrade": 3.48
       }
     ]
   },
@@ -17129,31 +15333,15 @@
     "professors": [
       {
         "prof": "Venerable, Walter J",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Venerable, Walter J",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Venerable, Walter J",
-        "avggrade": 3.65
+        "avggrade": 3.73
       },
       {
         "prof": "Lu, Yang",
-        "avggrade": 3.22
-      },
-      {
-        "prof": "Lu, Yang",
-        "avggrade": 3.09
+        "avggrade": 3.16
       },
       {
         "prof": "Caumiant, Eddie P",
-        "avggrade": 2.96
-      },
-      {
-        "prof": "Caumiant, Eddie P",
-        "avggrade": 2.61
+        "avggrade": 2.79
       }
     ]
   },
@@ -17461,75 +15649,27 @@
     "professors": [
       {
         "prof": "Tschirki, Andrew K",
-        "avggrade": 3.68
-      },
-      {
-        "prof": "Tschirki, Andrew K",
-        "avggrade": 3.9
-      },
-      {
-        "prof": "Tschirki, Andrew K",
         "avggrade": 3.79
       },
       {
         "prof": "Warren, Calandra",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Tu, Hpone M",
-        "avggrade": 3.94
-      },
-      {
-        "prof": "Warren, Calandra",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Warren, Calandra",
-        "avggrade": 3.7
-      },
-      {
-        "prof": "Werkheiser, Amy R",
-        "avggrade": 3.57
-      },
-      {
-        "prof": "Tu, Hpone M",
-        "avggrade": 3.74
-      },
-      {
-        "prof": "Rives, Turner H",
-        "avggrade": 3.67
-      },
-      {
-        "prof": "Rives, Turner H",
         "avggrade": 3.73
       },
       {
         "prof": "Tu, Hpone M",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Robinson, Sarah R",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Robinson, Sarah R",
-        "avggrade": 3.78
+        "avggrade": 3.84
       },
       {
         "prof": "Werkheiser, Amy R",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Werkheiser, Amy R",
-        "avggrade": 3.62
-      },
-      {
-        "prof": "Robinson, Sarah R",
-        "avggrade": 3.77
+        "avggrade": 3.67
       },
       {
         "prof": "Rives, Turner H",
-        "avggrade": 3.87
+        "avggrade": 3.76
+      },
+      {
+        "prof": "Robinson, Sarah R",
+        "avggrade": 3.71
       }
     ]
   },
@@ -17687,11 +15827,7 @@
     "professors": [
       {
         "prof": "Schroeder, Jason A",
-        "avggrade": 3.47
-      },
-      {
-        "prof": "Schroeder, Jason A",
-        "avggrade": 3.37
+        "avggrade": 3.42
       }
     ]
   },
@@ -17746,11 +15882,7 @@
     "professors": [
       {
         "prof": "Fredericks, Jacob J",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Fredericks, Jacob J",
-        "avggrade": 3.3
+        "avggrade": 3.5
       }
     ]
   },
@@ -17761,11 +15893,7 @@
     "professors": [
       {
         "prof": "Fredericks, Jacob J",
-        "avggrade": 3.33
-      },
-      {
-        "prof": "Fredericks, Jacob J",
-        "avggrade": 2.63
+        "avggrade": 2.98
       }
     ]
   },
@@ -17820,11 +15948,7 @@
     "professors": [
       {
         "prof": "Santos, Carla A",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Santos, Carla A",
-        "avggrade": 3.26
+        "avggrade": 3.43
       }
     ]
   },
@@ -18011,10 +16135,6 @@
     "professors": [
       {
         "prof": "Goldstein, Molly H",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Goldstein, Molly H",
         "avggrade": 3.55
       },
       {
@@ -18162,15 +16282,7 @@
     "professors": [
       {
         "prof": "Colon, Carlos",
-        "avggrade": 3.32
-      },
-      {
-        "prof": "Colon, Carlos",
-        "avggrade": 3.67
-      },
-      {
-        "prof": "Colon, Carlos",
-        "avggrade": 3.83
+        "avggrade": 3.61
       }
     ]
   },
@@ -18192,11 +16304,7 @@
     "professors": [
       {
         "prof": "Warnes, Cathy",
-        "avggrade": 3.73
-      },
-      {
-        "prof": "Warnes, Cathy",
-        "avggrade": 3.67
+        "avggrade": 3.7
       }
     ]
   },
@@ -18244,15 +16352,7 @@
     "professors": [
       {
         "prof": "Pucilowski, Anna G",
-        "avggrade": 3.83
-      },
-      {
-        "prof": "Pucilowski, Anna G",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Pucilowski, Anna G",
-        "avggrade": 3.67
+        "avggrade": 3.74
       }
     ]
   },
@@ -18274,15 +16374,7 @@
     "professors": [
       {
         "prof": "Dramin Weiss, Susan M",
-        "avggrade": 3.5
-      },
-      {
-        "prof": "Dramin Weiss, Susan M",
-        "avggrade": 3.24
-      },
-      {
-        "prof": "Dramin Weiss, Susan M",
-        "avggrade": 3.35
+        "avggrade": 3.36
       }
     ]
   },
@@ -18451,15 +16543,11 @@
       },
       {
         "prof": "Karipek, Yusuf Z",
-        "avggrade": 3.63
+        "avggrade": 3.58
       },
       {
         "prof": "Bircan Afsin, Seray",
-        "avggrade": 3.46
-      },
-      {
-        "prof": "Bircan Afsin, Seray",
-        "avggrade": 3.56
+        "avggrade": 3.58
       },
       {
         "prof": "Leach, Virginia A",
@@ -18471,27 +16559,7 @@
       },
       {
         "prof": "Kaiser, Alexander S",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Rodriguez-Reyes, Maya A",
-        "avggrade": 3.61
-      },
-      {
-        "prof": "Rodriguez-Reyes, Maya A",
-        "avggrade": 3.62
-      },
-      {
-        "prof": "Karipek, Yusuf Z",
-        "avggrade": 3.52
-      },
-      {
-        "prof": "Bircan Afsin, Seray",
-        "avggrade": 3.71
-      },
-      {
-        "prof": "Kaiser, Alexander S",
-        "avggrade": 3.79
+        "avggrade": 3.69
       },
       {
         "prof": "Steward, Daniel J",
@@ -18675,11 +16743,7 @@
     "professors": [
       {
         "prof": "Earls Larrison, Tara",
-        "avggrade": 3.09
-      },
-      {
-        "prof": "Earls Larrison, Tara",
-        "avggrade": 3.22
+        "avggrade": 3.16
       }
     ]
   },
@@ -18716,11 +16780,7 @@
     "professors": [
       {
         "prof": "Carter-Black, Janet D",
-        "avggrade": 3.69
-      },
-      {
-        "prof": "Carter-Black, Janet D",
-        "avggrade": 3.55
+        "avggrade": 3.62
       }
     ]
   },
@@ -18842,11 +16902,7 @@
       },
       {
         "prof": "Hensold, Katherine A",
-        "avggrade": 3.82
-      },
-      {
-        "prof": "Hensold, Katherine A",
-        "avggrade": 3.85
+        "avggrade": 3.83
       },
       {
         "prof": "Cintron, Valerie",
@@ -18917,10 +16973,6 @@
       {
         "prof": "Bentz, Johnell L",
         "avggrade": 3.91
-      },
-      {
-        "prof": "Bentz, Johnell L",
-        "avggrade": 3.91
       }
     ]
   },
@@ -18968,11 +17020,7 @@
       },
       {
         "prof": "Rao, V.N. Vimal",
-        "avggrade": 3.23
-      },
-      {
-        "prof": "Rao, V.N. Vimal",
-        "avggrade": 3.1
+        "avggrade": 3.17
       }
     ]
   },
@@ -19053,16 +17101,8 @@
         "avggrade": 3.53
       },
       {
-        "prof": "Unger, David",
-        "avggrade": 3.53
-      },
-      {
         "prof": "Yu, Albert",
-        "avggrade": 3.49
-      },
-      {
-        "prof": "Yu, Albert",
-        "avggrade": 3.51
+        "avggrade": 3.5
       }
     ]
   },
@@ -19084,19 +17124,11 @@
     "professors": [
       {
         "prof": "Yang, Yun",
-        "avggrade": 3.69
+        "avggrade": 3.68
       },
       {
         "prof": "Stepanov, Alexey G",
-        "avggrade": 3.14
-      },
-      {
-        "prof": "Stepanov, Alexey G",
-        "avggrade": 3.36
-      },
-      {
-        "prof": "Yang, Yun",
-        "avggrade": 3.67
+        "avggrade": 3.25
       }
     ]
   },
@@ -19133,11 +17165,7 @@
       },
       {
         "prof": "Jia, Weijia",
-        "avggrade": 3.38
-      },
-      {
-        "prof": "Jia, Weijia",
-        "avggrade": 3.58
+        "avggrade": 3.48
       }
     ]
   },
@@ -19146,10 +17174,6 @@
     "code": "STAT426",
     "name": "Statistical Modeling II",
     "professors": [
-      {
-        "prof": "Yu, Ruoqi",
-        "avggrade": 3.57
-      },
       {
         "prof": "Yu, Ruoqi",
         "avggrade": 3.56
@@ -19222,11 +17246,7 @@
     "professors": [
       {
         "prof": "Dayanikli, Gokce",
-        "avggrade": 3.49
-      },
-      {
-        "prof": "Dayanikli, Gokce",
-        "avggrade": 3.55
+        "avggrade": 3.52
       }
     ]
   },
@@ -19580,91 +17600,11 @@
     "professors": [
       {
         "prof": "Miller, Thomas J",
-        "avggrade": 3.72
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.81
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.53
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.56
+        "avggrade": 3.43
       },
       {
         "prof": "Civello, Mitchel A",
         "avggrade": 3.95
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.89
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.85
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.58
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.56
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.51
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.75
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.21
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.31
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.43
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 2.64
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.31
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.47
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.01
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 2.94
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.26
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.28
-      },
-      {
-        "prof": "Miller, Thomas J",
-        "avggrade": 3.36
       }
     ]
   },
