@@ -6,7 +6,7 @@ export default function Navbar() {
       <ul className="flex space-x-4">
         <li><Link href="/">Home</Link></li>
         <li><Link href="/Suggestions">Class Suggestions</Link></li>
-        
+        <li><Link href="/professors">Professor Profiles</Link></li>
       </ul>
     </nav>
   );

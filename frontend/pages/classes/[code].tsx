@@ -1,53 +1,46 @@
+"use client";
+
 import { useRouter } from "next/router";
-import classes from "../../data/raw/classes.json";               
+import { useEffect, useState } from "react";
+import classes from "../../data/raw/classes.json";
 import mergedProfessors from "../../data/processed/merged_professors.json";
 
 export default function ClassPage() {
   const router = useRouter();
-  const { code } = router.query;
+  const [code, setCode] = useState<string | null>(null);
 
-  if (!code || typeof code !== "string") return <p>Loading...</p>;
+  useEffect(() => {
+    if (typeof router.query.code === "string") {
+      setCode(router.query.code);
+    }
+  }, [router.query.code]);
 
-  const formattedCode = code.toLowerCase().replace(/\s+/g, '');
+  if (!code) return <p>Loading...</p>;
 
-  const classData = classes.find(cls =>
-    cls.code.toLowerCase().replace(/\s+/g, '') === formattedCode
-  );
+  const formatted = code.toLowerCase().replace(/\s+/g, "");
+  const classInfo = classes.find(c => c.code.toLowerCase().replace(/\s+/g, "") === formatted);
+  if (!classInfo) return <p>Class not found</p>;
 
-  if (!classData) return <p>Class not found</p>;
-
-  const profsForClass = mergedProfessors.filter(prof =>
-    prof.courses?.some(course => course.code.toLowerCase().replace(/\s+/g, '') === formattedCode)
+  const profs = mergedProfessors.filter(p =>
+    p.courses?.some(course => course.code.toLowerCase().replace(/\s+/g, "") === formatted)
   );
 
   return (
-    <main className="p-4">
-      <h1 className="text-2xl font-bold mb-4">{classData.code}</h1>
-      <p>Compare professors for {classData.name}.</p>
-      <p>Department: {classData.subject}</p>
-
-      <div className="mt-6">
-        <h3 className="font-semibold text-lg mb-2">Professors & Stats</h3>
-        <ul className="list-disc list-inside">
-          {profsForClass.map((prof, index) => {
-            const courseInfo = prof.courses?.find(course => course.code.toLowerCase().replace(/\s+/g, '') === formattedCode);
-
-            return (
-              <li key={index} className="mb-4">
-                <strong>{prof.lastName}, {prof.firstName}</strong>
-                <div>Average GPA: {courseInfo?.avggrade?.toFixed(2) ?? "N/A"}</div>
-                <div>Student Rating: {prof.avgRating?.toFixed(2) ?? "N/A"}</div>
-                <div>Class Difficulty: {prof.avgDifficulty?.toFixed(2) ?? "N/A"}</div>
-                <div>
-                  Take Again Percentage: {prof.wouldTakeAgainPercent != null && prof.wouldTakeAgainPercent >= 0
-                    ? `${prof.wouldTakeAgainPercent.toFixed(1)}%`
-                    : "N/A"}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+    <main style={{padding:20}}>
+      <h1>{classInfo.code} — {classInfo.name}</h1>
+      <p>Department: {classInfo.subject}</p>
+      <h2>Professors & Stats</h2>
+      <ul>
+        {profs.map((p, i) => {
+          const info = p.courses?.find(c => c.code.toLowerCase().replace(/\s+/g, "") === formatted);
+          return (
+            <li key={i} style={{marginBottom:12}}>
+              <strong>{p.lastName}, {p.firstName}</strong><br/>
+              GPA: {info?.avggrade?.toFixed(2) ?? "N/A"} | Rating: {p.avgRating?.toFixed(2) ?? "N/A"} | Difficulty: {p.avgDifficulty?.toFixed(2) ?? "N/A"} | Would Take Again: {p.wouldTakeAgainPercent ?? "N/A"}%
+            </li>
+          );
+        })}
+      </ul>
     </main>
   );
 }
