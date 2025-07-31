@@ -6,6 +6,8 @@ export default function Home() {
       <h1 className="text-2xl font-bold mb-4">Campus Dashboard</h1>
       <ClassSearch />
     </main>
+
+    
   );
 }
 
