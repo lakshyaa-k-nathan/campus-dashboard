@@ -5,17 +5,7 @@ import Link from "next/link";
 import classData from "../data/raw/classes.json";
 import mergedProfessors from "../data/processed/merged_professors.json";
 
-interface Professor {
-  prof: string;
-  avggrade: number;
-}
 
-interface Class {
-  subject: string;
-  code: string;
-  name: string;
-  professors: Professor[];
-}
 
 // Normalize once
 const normalize = (name: string) =>
@@ -32,19 +22,16 @@ export default function SuggestionsWithRMPFilter() {
   const [professor, setProfessor] = useState("");
   const [maxDifficulty, setMaxDifficulty] = useState("");
   const [onlyWithRMP, setOnlyWithRMP] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false);
 
   // Trigger search on first user input
   const handleInputChange = (
     setter: React.Dispatch<React.SetStateAction<string>>
   ) => (e: React.ChangeEvent<HTMLInputElement>) => {
     setter(e.target.value);
-    setHasSearched(true);
   };
 
   const handleCheckboxChange = () => {
     setOnlyWithRMP((prev) => !prev);
-    setHasSearched(true);
   };
 
   const filteredClasses = useMemo(() => {
@@ -114,53 +101,53 @@ export default function SuggestionsWithRMPFilter() {
       </div>
 
       {/* Results */}
-{(department.trim() !== "" || professor.trim() !== "") && (
-  <>
-    {filteredClasses.length === 0 ? (
-      <p>No classes match your filters.</p>
-    ) : (
-      <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-        {filteredClasses.map((cls, i) => {
-          const slug = cls.code.toLowerCase().replace(/\s+/g, "");
-          const avgGpa =
-            cls.professors.length > 0
-              ? (
-                  cls.professors.reduce((sum, p) => sum + p.avggrade, 0) /
-                  cls.professors.length
-                ).toFixed(2)
-              : "N/A";
+      {(department.trim() !== "" || professor.trim() !== "") && (
+        <>
+          {filteredClasses.length === 0 ? (
+            <p>No classes match your filters.</p>
+          ) : (
+            <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+              {filteredClasses.map((cls, i) => {
+                const slug = cls.code.toLowerCase().replace(/\s+/g, "");
+                const avgGpa =
+                  cls.professors.length > 0
+                    ? (
+                        cls.professors.reduce((sum, p) => sum + p.avggrade, 0) /
+                        cls.professors.length
+                      ).toFixed(2)
+                    : "N/A";
 
-          return (
-            <li
-              key={i}
-              style={{
-                marginBottom: "20px",
-                borderBottom: "1px solid #ccc",
-                paddingBottom: "10px",
-              }}
-            >
-              <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
-                <Link href={`/classes/${slug}`}>
-                  {cls.code} — {cls.name}
-                </Link>
-              </h2>
-              <p>Department: {cls.subject}</p>
-              <p>Avg GPA: {avgGpa}</p>
-              <p>Professors:</p>
-              <ul>
-                {cls.professors.map((p, j) => (
-                  <li key={j}>
-                    {p.prof} — GPA: {p.avggrade.toFixed(2)}
+                return (
+                  <li
+                    key={i}
+                    style={{
+                      marginBottom: "20px",
+                      borderBottom: "1px solid #ccc",
+                      paddingBottom: "10px",
+                    }}
+                  >
+                    <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
+                      <Link href={`/classes/${slug}`}>
+                        {cls.code} — {cls.name}
+                      </Link>
+                    </h2>
+                    <p>Department: {cls.subject}</p>
+                    <p>Avg GPA: {avgGpa}</p>
+                    <p>Professors:</p>
+                    <ul>
+                      {cls.professors.map((p, j) => (
+                        <li key={j}>
+                          {p.prof} — GPA: {p.avggrade.toFixed(2)}
+                        </li>
+                      ))}
+                    </ul>
                   </li>
-                ))}
-              </ul>
-            </li>
-          );
-        })}
-      </ul>
-    )}
-  </>
-)}
+                );
+              })}
+            </ul>
+          )}
+        </>
+      )}
     </div>
   );
 }

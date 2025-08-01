@@ -24,10 +24,11 @@ export default function Professors() {
     return Array.from(uniqueSubjects).sort();
   }, []);
 
-  // Filter classes by selected subject
-  const filteredClasses = selectedSubject
-    ? classesData.filter((c: Class) => c.subject === selectedSubject)
-    : [];
+  // Filter classes by selected subject - now memoized
+  const filteredClasses = useMemo(() => {
+    if (!selectedSubject) return [];
+    return classesData.filter((c: Class) => c.subject === selectedSubject);
+  }, [selectedSubject]);
 
   // Calculate department average GPA for selected subject
   const departmentAverage = useMemo(() => {
