@@ -52,31 +52,33 @@ export default function ProfSearch() {
   );
 
   return (
-    <div className="p-4">
+    <div
+      className="min-h-screen p-6 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white font-poppins"
+      style={{ fontFamily: "'Poppins', sans-serif" }}
+    >
       <input
         type="text"
         placeholder="Search classes by name..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="border p-2 rounded w-full mb-4"
+        className="w-full p-3 mb-6 rounded-md bg-indigo-700 placeholder-indigo-300 focus:outline-none focus:ring-2 focus:ring-pink-400 transition duration-300"
       />
 
-      {loading && <p>Loading...</p>}
-      {error && <p className="text-red-500">{error}</p>}
+      {loading && <p className="text-pink-300 font-semibold">Loading...</p>}
+      {error && <p className="text-red-400 font-semibold">{error}</p>}
 
       {!loading && sortedClasses.length === 0 && query.trim() !== "" && (
-        <p>No classes found.</p>
+        <p className="text-indigo-300">No classes found.</p>
       )}
 
       <ul>
         {sortedClasses.map((cls) => (
-          <li key={cls.id} className="mb-4 border-b pb-2">
-            <h3 className="font-bold text-lg">
+          <li key={cls.id} className="mb-6 border-b border-indigo-600 pb-3">
+            <h3 className="text-xl font-semibold hover:text-pink-400 transition duration-300">
               <Link href={`/classes/${cls.code}`}>
                 {cls.code} - {cls.name}
               </Link>
             </h3>
-          
           </li>
         ))}
       </ul>

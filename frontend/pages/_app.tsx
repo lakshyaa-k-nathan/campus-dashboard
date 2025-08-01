@@ -1,6 +1,7 @@
+// frontend/pages/_app.tsx
+import '../globals.css';
 import type { AppProps } from 'next/app';
-import Navbar from '../components/Navbar'; // adjust path if your structure is different
-
+import Navbar from '../components/Navbar';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

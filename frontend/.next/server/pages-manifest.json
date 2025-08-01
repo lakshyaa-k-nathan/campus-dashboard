@@ -1,0 +1,10 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/classes": "pages/api/classes.js",
+  "/class-suggestions": "pages/class-suggestions.js",
+  "/classes/[code]": "pages/classes/[code].js",
+  "/professors": "pages/professors.js",
+  "/professors/[slug]": "pages/professors/[slug].js"
+}

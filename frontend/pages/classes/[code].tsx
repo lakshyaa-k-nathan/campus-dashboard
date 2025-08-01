@@ -15,28 +15,78 @@ export default function ClassPage() {
     }
   }, [router.query.code]);
 
-  if (!code) return <p>Loading...</p>;
+  if (!code)
+    return (
+      <p className="text-indigo-300 font-semibold text-center mt-10">Loading...</p>
+    );
 
   const formatted = code.toLowerCase().replace(/\s+/g, "");
-  const classInfo = classes.find(c => c.code.toLowerCase().replace(/\s+/g, "") === formatted);
-  if (!classInfo) return <p>Class not found</p>;
+  const classInfo = classes.find(
+    (c) => c.code.toLowerCase().replace(/\s+/g, "") === formatted
+  );
+  if (!classInfo)
+    return (
+      <p className="text-red-400 font-semibold text-center mt-10">
+        Class not found
+      </p>
+    );
 
-  const profs = mergedProfessors.filter(p =>
-    p.courses?.some(course => course.code.toLowerCase().replace(/\s+/g, "") === formatted)
+  const profs = mergedProfessors.filter((p) =>
+    p.courses?.some(
+      (course) => course.code.toLowerCase().replace(/\s+/g, "") === formatted
+    )
   );
 
   return (
-    <main style={{padding:20}}>
-      <h1>{classInfo.code} — {classInfo.name}</h1>
-      <p>Department: {classInfo.subject}</p>
-      <h2>Professors & Stats</h2>
+    <main
+      className="min-h-screen p-8 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white font-poppins max-w-4xl mx-auto"
+      style={{ fontFamily: "'Poppins', sans-serif" }}
+    >
+      <h1 className="text-4xl font-bold mb-2">
+        {classInfo.code} — {classInfo.name}
+      </h1>
+      <p className="text-indigo-300 mb-6 text-lg">
+        Department: <span className="font-semibold">{classInfo.subject}</span>
+      </p>
+
+      <h2 className="text-2xl font-semibold mb-4 border-b border-indigo-600 pb-2">
+        Professors & Stats
+      </h2>
       <ul>
         {profs.map((p, i) => {
-          const info = p.courses?.find(c => c.code.toLowerCase().replace(/\s+/g, "") === formatted);
+          const info = p.courses?.find(
+            (c) => c.code.toLowerCase().replace(/\s+/g, "") === formatted
+          );
+
+          const hasRmpData =
+            p.avgRating !== null &&
+            p.avgRating !== undefined &&
+            p.avgDifficulty !== null &&
+            p.avgDifficulty !== undefined &&
+            p.wouldTakeAgainPercent !== null &&
+            p.wouldTakeAgainPercent !== undefined;
+
           return (
-            <li key={i} style={{marginBottom:12}}>
-              <strong>{p.lastName}, {p.firstName}</strong><br/>
-              GPA: {info?.avggrade?.toFixed(2) ?? "N/A"} | Rating: {p.avgRating?.toFixed(2) ?? "N/A"} | Difficulty: {p.avgDifficulty?.toFixed(2) ?? "N/A"} | Would Take Again: {p.wouldTakeAgainPercent ?? "N/A"}%
+            <li
+              key={i}
+              className="mb-6 bg-indigo-800 bg-opacity-30 p-4 rounded-md shadow-md"
+            >
+              <strong className="text-lg">{p.lastName}, {p.firstName}</strong>
+              <p className="mt-1">
+                GPA:{" "}
+                {info?.avggrade !== null && info?.avggrade !== undefined
+                  ? info.avggrade.toFixed(2)
+                  : "N/A"}{" "}
+                {hasRmpData ? (
+                  <>
+                    | Rating: {p.avgRating!.toFixed(2)} | Difficulty:{" "}
+                    {p.avgDifficulty!.toFixed(2)} | Would Take Again:{" "}
+                    {p.wouldTakeAgainPercent}%
+                  </>
+                ) : (
+                  "| No RMP data"
+                )}
+              </p>
             </li>
           );
         })}

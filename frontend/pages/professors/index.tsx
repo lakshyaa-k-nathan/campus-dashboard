@@ -18,19 +18,16 @@ export default function Professors() {
   const [selectedSubject, setSelectedSubject] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Get unique subjects for dropdown
   const subjects = useMemo(() => {
     const uniqueSubjects = new Set(classesData.map((c: Class) => c.subject));
     return Array.from(uniqueSubjects).sort();
   }, []);
 
-  // Filter classes by selected subject - now memoized
   const filteredClasses = useMemo(() => {
     if (!selectedSubject) return [];
     return classesData.filter((c: Class) => c.subject === selectedSubject);
   }, [selectedSubject]);
 
-  // Calculate department average GPA for selected subject
   const departmentAverage = useMemo(() => {
     if (!selectedSubject) return null;
 
@@ -44,7 +41,6 @@ export default function Professors() {
     return sum / allGrades.length;
   }, [filteredClasses, selectedSubject]);
 
-  // Collect all professors in the subject, flatten & remove duplicates by prof name
   const allProfessors = useMemo(() => {
     if (!selectedSubject) return [];
 
@@ -61,7 +57,6 @@ export default function Professors() {
     return Array.from(profMap.values());
   }, [filteredClasses, selectedSubject]);
 
-  // Filter professors by search term (case insensitive)
   const filteredProfessors = useMemo(() => {
     if (!searchTerm) return allProfessors;
 
@@ -71,16 +66,31 @@ export default function Professors() {
   }, [allProfessors, searchTerm]);
 
   return (
-    <main className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Professors</h1>
+    <main
+      className="p-6 max-w-4xl mx-auto rounded-lg"
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        background:
+          "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
+        boxShadow:
+          "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
+        color: "#f0f0f5",
+      }}
+    >
+      <h1 className="text-3xl font-extrabold mb-6 text-center text-purple-100 drop-shadow-md">
+        Professors
+      </h1>
 
       {/* Subject Dropdown */}
-      <label htmlFor="subject-select" className="block mb-2 font-semibold">
+      <label
+        htmlFor="subject-select"
+        className="block mb-2 font-semibold text-purple-200"
+      >
         Select Subject:
       </label>
       <select
         id="subject-select"
-        className="mb-4 p-2 border rounded w-full max-w-xs"
+        className="mb-4 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900"
         value={selectedSubject}
         onChange={(e) => {
           setSelectedSubject(e.target.value);
@@ -98,13 +108,16 @@ export default function Professors() {
       {/* Search bar */}
       {selectedSubject && (
         <>
-          <label htmlFor="prof-search" className="block mb-2 font-semibold">
+          <label
+            htmlFor="prof-search"
+            className="block mb-2 font-semibold text-purple-200"
+          >
             Search Professors:
           </label>
           <input
             id="prof-search"
             type="text"
-            className="mb-6 p-2 border rounded w-full max-w-xs"
+            className="mb-6 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900"
             placeholder="Type a professor's name"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -114,7 +127,7 @@ export default function Professors() {
 
       {/* Department average */}
       {selectedSubject && (
-        <p className="mb-6 text-lg">
+        <p className="mb-6 text-lg text-purple-100">
           Department average GPA for <strong>{selectedSubject}</strong>:{" "}
           {departmentAverage ? departmentAverage.toFixed(2) : "N/A"}
         </p>
@@ -124,16 +137,16 @@ export default function Professors() {
       {selectedSubject && (
         <ul className="space-y-3">
           {filteredProfessors.length === 0 && (
-            <p>No professors found matching your search.</p>
+            <p className="text-purple-200">No professors found matching your search.</p>
           )}
           {filteredProfessors.map((prof) => (
             <li
               key={prof.prof}
-              className="border p-4 rounded hover:shadow-md transition"
+              className="border border-purple-300 p-4 rounded hover:shadow-lg transition-shadow bg-purple-700/30"
             >
               <Link
                 href={`/professors/${encodeURIComponent(prof.prof)}`}
-                className="text-blue-600 hover:underline"
+                className="text-purple-300 hover:underline font-semibold"
               >
                 {prof.prof}
               </Link>{" "}

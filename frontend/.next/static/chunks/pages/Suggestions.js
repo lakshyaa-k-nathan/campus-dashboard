@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/Suggestions", [
+  "static/chunks/[root-of-the-server]__d8db5918._.js",
+  "static/chunks/node_modules_next_9a882e92._.js",
+  "static/chunks/node_modules_react-dom_82bb97c6._.js",
+  "static/chunks/node_modules_2a5cf4bb._.js",
+  "static/chunks/pages_Suggestions_5771e187._.js",
+  "static/chunks/pages_Suggestions_7faec147._.js"
+])

@@ -11112,10 +11112,10 @@
     {
         "firstName": "Isaac",
         "lastName": "DiIanni",
-        "avgRating": null,
-        "avgDifficulty": null,
-        "wouldTakeAgainPercent": null,
-        "numRatings": null,
+        "avgRating": 4.4,
+        "avgDifficulty": 2.6,
+        "wouldTakeAgainPercent": 83,
+        "numRatings": 156,
         "courses": [
             {
                 "code": "ECON402",
@@ -23697,10 +23697,10 @@
     {
         "firstName": "Victoria M",
         "lastName": "Ellison",
-        "avgRating": null,
-        "avgDifficulty": null,
-        "wouldTakeAgainPercent": null,
-        "numRatings": null,
+        "avgRating": 3.5,
+        "avgDifficulty": 3.3,
+        "wouldTakeAgainPercent": 67,
+        "numRatings": 6,
         "courses": [
             {
                 "code": "STAT207",

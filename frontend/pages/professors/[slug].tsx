@@ -22,7 +22,19 @@ export default function ProfessorProfile() {
   }, [slug]);
 
   if (!professorSlug) {
-    return <p>Loading...</p>;
+    return (
+      <p
+        style={{
+          fontFamily: "'Poppins', sans-serif",
+          fontSize: "18px",
+          textAlign: "center",
+          marginTop: "40px",
+          color: "#ddd6fe",
+        }}
+      >
+        Loading...
+      </p>
+    );
   }
 
   // Find classes taught by professor and accumulate grades
@@ -61,41 +73,135 @@ export default function ProfessorProfile() {
     return match;
   });
 
-  // Debug logs (remove in production)
-  console.log("🔍 Slug from URL:", professorSlug);
-  console.log("🔍 Normalized Last Name:", normalizedLast);
-  console.log("🔍 Normalized First Name (partial):", normalizedFirst);
-  if (!rmpProf) {
-    console.warn("⚠️ No RMP match found for:", professorSlug);
-  }
-
   return (
-    <main className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">{professorSlug}</h1>
+    <main
+      style={{
+        maxWidth: "720px",
+        margin: "40px auto",
+        padding: "24px",
+        fontFamily: "'Poppins', sans-serif",
+        background:
+          "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
+        borderRadius: "14px",
+        boxShadow:
+          "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
+        color: "#f0f0f5",
+      }}
+    >
+      <h1
+        style={{
+          fontSize: "32px",
+          fontWeight: "800",
+          marginBottom: "16px",
+          color: "#ddd6fe",
+          textAlign: "center",
+          textShadow: "0 0 6px rgba(255,255,255,0.5)",
+        }}
+      >
+        {professorSlug}
+      </h1>
 
-      <p className="mb-2">
-        <strong>Average GPA Across Classes:</strong>{" "}
+      <p
+        style={{
+          fontSize: "18px",
+          fontWeight: "600",
+          marginBottom: "20px",
+          textAlign: "center",
+        }}
+      >
+        <strong>Average GPA Across Classes: </strong>
         {avgGrade !== null ? avgGrade.toFixed(2) : "N/A"}
       </p>
 
       {rmpProf ? (
-        <section className="mb-4">
-          <h2 className="text-2xl font-semibold">RateMyProfessors Data</h2>
-          <p>Rating: {rmpProf.avgRating?.toFixed(2) ?? "N/A"} / 5</p>
-          <p>Difficulty: {rmpProf.avgDifficulty?.toFixed(2) ?? "N/A"} / 5</p>
-          <p>Would Take Again: {rmpProf.wouldTakeAgainPercent ?? "N/A"}%</p>
-          <p>Number of Ratings: {rmpProf.numRatings ?? "N/A"}</p>
-        </section>
+        rmpProf.avgRating == null &&
+        rmpProf.avgDifficulty == null &&
+        rmpProf.wouldTakeAgainPercent == null &&
+        rmpProf.numRatings == null ? (
+          <p
+            style={{
+              fontSize: "16px",
+              fontStyle: "italic",
+              textAlign: "center",
+              marginBottom: "28px",
+            }}
+          >
+            No RateMyProfessors data available.
+          </p>
+        ) : (
+          <section
+            style={{
+              marginBottom: "32px",
+              backgroundColor: "rgba(255 255 255 / 0.12)",
+              padding: "20px",
+              borderRadius: "10px",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+            }}
+          >
+            <h2
+              style={{
+                fontSize: "24px",
+                fontWeight: "700",
+                marginBottom: "14px",
+                color: "#e0c3fc",
+                textShadow: "0 0 4px rgba(255,255,255,0.3)",
+              }}
+            >
+              RateMyProfessors Data
+            </h2>
+            <p>Rating: {rmpProf.avgRating?.toFixed(2) ?? "N/A"} / 5</p>
+            <p>Difficulty: {rmpProf.avgDifficulty?.toFixed(2) ?? "N/A"} / 5</p>
+            <p>
+              Would Take Again:{" "}
+              {rmpProf.wouldTakeAgainPercent != null
+                ? `${rmpProf.wouldTakeAgainPercent}%`
+                : "N/A"}
+            </p>
+            <p>
+              Number of Ratings:{" "}
+              {rmpProf.numRatings != null ? rmpProf.numRatings : "N/A"}
+            </p>
+          </section>
+        )
       ) : (
-        <p>No RateMyProfessors data available.</p>
+        <p
+          style={{
+            fontSize: "16px",
+            fontStyle: "italic",
+            textAlign: "center",
+            marginBottom: "28px",
+          }}
+        >
+          No RateMyProfessors data available.
+        </p>
       )}
 
-      <h2 className="text-2xl font-semibold mb-2">Classes Taught</h2>
-      <ul className="list-disc list-inside">
+      <h2
+        style={{
+          fontSize: "26px",
+          fontWeight: "700",
+          marginBottom: "12px",
+          borderBottom: "2px solid #a78bfa",
+          paddingBottom: "8px",
+          color: "#ddd6fe",
+        }}
+      >
+        Classes Taught
+      </h2>
+      <ul
+        style={{
+          listStyle: "disc inside",
+          fontSize: "18px",
+          lineHeight: "1.6",
+          paddingLeft: "10px",
+          color: "#e0d7ff",
+        }}
+      >
         {classList.length > 0 ? (
           classList.map(({ code, name, avggrade }) => (
-            <li key={code}>
-              {code}: {name} — GPA: {avggrade?.toFixed(2) ?? "N/A"}
+            <li key={code} style={{ marginBottom: "8px" }}>
+              <strong>{code}:</strong> {name} — GPA:{" "}
+              {avggrade?.toFixed(2) ?? "N/A"}
             </li>
           ))
         ) : (
