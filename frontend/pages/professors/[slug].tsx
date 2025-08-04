@@ -25,11 +25,16 @@ export default function ProfessorProfile() {
     return (
       <p
         style={{
-          fontFamily: "'Poppins', sans-serif",
-          fontSize: "18px",
-          textAlign: "center",
-          marginTop: "40px",
-          color: "#ddd6fe",
+          padding: "24px",
+    marginTop: "80px", // 👈 prevents overlap with navbar
+    maxWidth: "800px",
+    marginLeft: "auto",
+    marginRight: "auto",
+        fontFamily: "'Poppins', sans-serif",
+        color: "#ffffffff",
+        background:
+          "#1b196bff",
+        borderRadius: "20px",
         }}
       >
         Loading...
@@ -75,17 +80,17 @@ export default function ProfessorProfile() {
 
   return (
     <main
+      className="p-6 max-w-4xl mx-auto rounded-lg"
       style={{
-        maxWidth: "720px",
-        margin: "40px auto",
         padding: "24px",
+        marginTop: "80px",
+        maxWidth: "800px",
+        marginLeft: "auto",
+        marginRight: "auto",
         fontFamily: "'Poppins', sans-serif",
-        background:
-          "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-        borderRadius: "14px",
-        boxShadow:
-          "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
-        color: "#f0f0f5",
+        color: "#ffffffff",
+        background: "#1b196bff",
+        borderRadius: "20px",
       }}
     >
       <h1
@@ -95,7 +100,6 @@ export default function ProfessorProfile() {
           marginBottom: "16px",
           color: "#ddd6fe",
           textAlign: "center",
-          textShadow: "0 0 6px rgba(255,255,255,0.5)",
         }}
       >
         {professorSlug}

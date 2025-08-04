@@ -77,11 +77,15 @@ function ProfessorProfile() {
     if (!professorSlug) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
             style: {
+                padding: "24px",
+                marginTop: "80px",
+                maxWidth: "800px",
+                marginLeft: "auto",
+                marginRight: "auto",
                 fontFamily: "'Poppins', sans-serif",
-                fontSize: "18px",
-                textAlign: "center",
-                marginTop: "40px",
-                color: "#ddd6fe"
+                color: "#ffffffff",
+                background: "#1b196bff",
+                borderRadius: "20px"
             },
             children: "Loading..."
         }, void 0, false, {
@@ -120,15 +124,17 @@ function ProfessorProfile() {
         return match;
     });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
+        className: "p-6 max-w-4xl mx-auto rounded-lg",
         style: {
-            maxWidth: "720px",
-            margin: "40px auto",
             padding: "24px",
+            marginTop: "80px",
+            maxWidth: "800px",
+            marginLeft: "auto",
+            marginRight: "auto",
             fontFamily: "'Poppins', sans-serif",
-            background: "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-            borderRadius: "14px",
-            boxShadow: "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
-            color: "#f0f0f5"
+            color: "#ffffffff",
+            background: "#1b196bff",
+            borderRadius: "20px"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
@@ -137,13 +143,12 @@ function ProfessorProfile() {
                     fontWeight: "800",
                     marginBottom: "16px",
                     color: "#ddd6fe",
-                    textAlign: "center",
-                    textShadow: "0 0 6px rgba(255,255,255,0.5)"
+                    textAlign: "center"
                 },
                 children: professorSlug
             }, void 0, false, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 91,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -158,14 +163,14 @@ function ProfessorProfile() {
                         children: "Average GPA Across Classes: "
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 112,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     avgGrade !== null ? avgGrade.toFixed(2) : "N/A"
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 104,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             rmpProf ? rmpProf.avgRating == null && rmpProf.avgDifficulty == null && rmpProf.wouldTakeAgainPercent == null && rmpProf.numRatings == null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -178,7 +183,7 @@ function ProfessorProfile() {
                 children: "No RateMyProfessors data available."
             }, void 0, false, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 121,
+                lineNumber: 125,
                 columnNumber: 11
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                 style: {
@@ -200,7 +205,7 @@ function ProfessorProfile() {
                         children: "RateMyProfessors Data"
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 141,
+                        lineNumber: 145,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -211,7 +216,7 @@ function ProfessorProfile() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 152,
+                        lineNumber: 156,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -222,7 +227,7 @@ function ProfessorProfile() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 153,
+                        lineNumber: 157,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -233,7 +238,7 @@ function ProfessorProfile() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 154,
+                        lineNumber: 158,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -244,13 +249,13 @@ function ProfessorProfile() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 160,
+                        lineNumber: 164,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 132,
+                lineNumber: 136,
                 columnNumber: 11
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                 style: {
@@ -262,7 +267,7 @@ function ProfessorProfile() {
                 children: "No RateMyProfessors data available."
             }, void 0, false, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 167,
+                lineNumber: 171,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -277,7 +282,7 @@ function ProfessorProfile() {
                 children: "Classes Taught"
             }, void 0, false, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 179,
+                lineNumber: 183,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -300,7 +305,7 @@ function ProfessorProfile() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/professors/[slug].tsx",
-                                lineNumber: 203,
+                                lineNumber: 207,
                                 columnNumber: 15
                             }, this),
                             " ",
@@ -311,24 +316,24 @@ function ProfessorProfile() {
                         ]
                     }, code, true, {
                         fileName: "[project]/pages/professors/[slug].tsx",
-                        lineNumber: 202,
+                        lineNumber: 206,
                         columnNumber: 13
                     }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                     children: "No classes found for this professor."
                 }, void 0, false, {
                     fileName: "[project]/pages/professors/[slug].tsx",
-                    lineNumber: 208,
+                    lineNumber: 212,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/professors/[slug].tsx",
-                lineNumber: 191,
+                lineNumber: 195,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/professors/[slug].tsx",
-        lineNumber: 77,
+        lineNumber: 82,
         columnNumber: 5
     }, this);
 }

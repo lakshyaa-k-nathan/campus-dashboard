@@ -93,7 +93,15 @@ function ClassPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
         className: "min-h-screen p-8 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white font-poppins max-w-4xl mx-auto",
         style: {
-            fontFamily: "'Poppins', sans-serif"
+            padding: "24px",
+            marginTop: "80px",
+            maxWidth: "800px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            fontFamily: "'Poppins', sans-serif",
+            color: "#ffffffff",
+            background: "#1b196bff",
+            borderRadius: "20px"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
@@ -105,7 +113,7 @@ function ClassPage() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/classes/[code].tsx",
-                lineNumber: 45,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -117,13 +125,13 @@ function ClassPage() {
                         children: classInfo.subject
                     }, void 0, false, {
                         fileName: "[project]/pages/classes/[code].tsx",
-                        lineNumber: 49,
+                        lineNumber: 58,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/classes/[code].tsx",
-                lineNumber: 48,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -131,7 +139,7 @@ function ClassPage() {
                 children: "Professors & Stats"
             }, void 0, false, {
                 fileName: "[project]/pages/classes/[code].tsx",
-                lineNumber: 52,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -150,7 +158,7 @@ function ClassPage() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/classes/[code].tsx",
-                                lineNumber: 74,
+                                lineNumber: 83,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -176,19 +184,19 @@ function ClassPage() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/classes/[code].tsx",
-                                lineNumber: 75,
+                                lineNumber: 84,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/pages/classes/[code].tsx",
-                        lineNumber: 70,
+                        lineNumber: 79,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/pages/classes/[code].tsx",
-                lineNumber: 55,
+                lineNumber: 64,
                 columnNumber: 7
             }, this)
         ]

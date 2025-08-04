@@ -69,15 +69,18 @@ export default function Professors() {
     <main
       className="p-6 max-w-4xl mx-auto rounded-lg"
       style={{
+        padding: "24px",
+        marginTop: "80px",
+        maxWidth: "800px",
+        marginLeft: "auto",
+        marginRight: "auto",
         fontFamily: "'Poppins', sans-serif",
-        background:
-          "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-        boxShadow:
-          "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
-        color: "#f0f0f5",
+        color: "#ffffffff",
+        background: "#1b196bff",
+        borderRadius: "20px",
       }}
     >
-      <h1 className="text-3xl font-extrabold mb-6 text-center text-purple-100 drop-shadow-md">
+      <h1 style={{ fontSize: "28px", fontWeight: "700", marginBottom: "24px" , textAlign: "center"}}>
         Professors
       </h1>
 
@@ -90,14 +93,14 @@ export default function Professors() {
       </label>
       <select
         id="subject-select"
-        className="mb-4 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900"
+        className="mb-4 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-white-300 text-orange-400"
         value={selectedSubject}
         onChange={(e) => {
           setSelectedSubject(e.target.value);
-          setSearchTerm(""); // reset search on subject change
+          setSearchTerm("");
         }}
       >
-        <option value="">-- Choose a subject --</option>
+        <option value="">Choose a subject --</option>
         {subjects.map((subject) => (
           <option key={subject} value={subject}>
             {subject}
@@ -117,7 +120,7 @@ export default function Professors() {
           <input
             id="prof-search"
             type="text"
-            className="mb-6 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900"
+            className="mb-6 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-white-300 text-orange-400"
             placeholder="Type a professor's name"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -127,7 +130,7 @@ export default function Professors() {
 
       {/* Department average */}
       {selectedSubject && (
-        <p className="mb-6 text-lg text-purple-100">
+        <p className="mb-6 text-lg text-white-100">
           Department average GPA for <strong>{selectedSubject}</strong>:{" "}
           {departmentAverage ? departmentAverage.toFixed(2) : "N/A"}
         </p>
@@ -139,22 +142,37 @@ export default function Professors() {
           {filteredProfessors.length === 0 && (
             <p className="text-purple-200">No professors found matching your search.</p>
           )}
-          {filteredProfessors.map((prof) => (
-            <li
-              key={prof.prof}
-              className="border border-purple-300 p-4 rounded hover:shadow-lg transition-shadow bg-purple-700/30"
-            >
-              <Link
-                href={`/professors/${encodeURIComponent(prof.prof)}`}
-                className="text-purple-300 hover:underline font-semibold"
+          {filteredProfessors.map((prof) => {
+            const diff = departmentAverage ? prof.avggrade - departmentAverage : 0;
+            const isAbove = diff > 0;
+            const isEqual = diff === 0;
+            const arrow = isEqual ? "—" : isAbove ? "▲" : "▼";
+            const arrowColor = isEqual
+              ? "text-gray-400"
+              : isAbove
+              ? "text-green-400"
+              : "text-red-400";
+
+            return (
+              <li
+                key={prof.prof}
+                className="border border-white-300 p-4 rounded hover:shadow-lg transition-shadow bg-white-700/30"
               >
-                {prof.prof}
-              </Link>{" "}
-              - Avg Grade: {prof.avggrade.toFixed(2)}{" "}
-              {departmentAverage &&
-                `(${(prof.avggrade - departmentAverage).toFixed(2)} from dept avg)`}
-            </li>
-          ))}
+                <Link
+                  href={`/professors/${encodeURIComponent(prof.prof)}`}
+                  className="text-white-300 hover:underline font-semibold"
+                >
+                  {prof.prof}
+                </Link>{" "}
+                - Avg Grade: {prof.avggrade.toFixed(2)}{" "}
+                {departmentAverage !== null && (
+                  <span className={`ml-2 font-semibold ${arrowColor}`}>
+                    {arrow} {Math.abs(diff).toFixed(2)} from dept avg
+                  </span>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
     </main>

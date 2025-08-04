@@ -40,7 +40,16 @@ export default function ClassPage() {
   return (
     <main
       className="min-h-screen p-8 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white font-poppins max-w-4xl mx-auto"
-      style={{ fontFamily: "'Poppins', sans-serif" }}
+      style={{ padding: "24px",
+    marginTop: "80px", // 👈 prevents overlap with navbar
+    maxWidth: "800px",
+    marginLeft: "auto",
+    marginRight: "auto",
+        fontFamily: "'Poppins', sans-serif",
+        color: "#ffffffff",
+        background:
+          "#1b196bff",
+        borderRadius: "20px",}}
     >
       <h1 className="text-4xl font-bold mb-2">
         {classInfo.code} — {classInfo.name}

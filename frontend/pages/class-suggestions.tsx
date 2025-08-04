@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import classData from "../data/raw/classes.json";
 import mergedProfessors from "../data/processed/merged_professors.json";
@@ -9,27 +10,39 @@ import mergedProfessors from "../data/processed/merged_professors.json";
 const normalize = (name: string) =>
   name.toLowerCase().replace(/\./g, "").replace(/\s+/g, " ").trim();
 
+// ✅ Only include profs with actual RMP data
 const rmpProfSet = new Set(
-  mergedProfessors.map(
-    (p) => `${normalize(p.lastName)}, ${normalize(p.firstName)}`
-  )
+  mergedProfessors
+    .filter(
+      (p) =>
+        p.avgRating !== null ||
+        p.avgDifficulty !== null ||
+        p.wouldTakeAgainPercent !== null ||
+        p.numRatings !== null
+    )
+    .map((p) => `${normalize(p.lastName)}, ${normalize(p.firstName)}`)
 );
 
 export default function SuggestionsWithRMPFilter() {
-  const [department, setDepartment] = useState("");
-  const [professor, setProfessor] = useState("");
-  const [maxDifficulty, setMaxDifficulty] = useState("");
-  const [onlyWithRMP, setOnlyWithRMP] = useState(false);
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  const handleInputChange =
-    (setter: React.Dispatch<React.SetStateAction<string>>) =>
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      setter(e.target.value);
-    };
+  const [department, setDepartment] = useState(searchParams?.get("dept") || "");
+const [professor, setProfessor] = useState(searchParams?.get("prof") || "");
+const [maxDifficulty, setMaxDifficulty] = useState(searchParams?.get("max") || "");
+const [onlyWithRMP, setOnlyWithRMP] = useState(searchParams?.get("onlyWithRMP") === "true");
 
-  const handleCheckboxChange = () => {
-    setOnlyWithRMP((prev) => !prev);
-  };
+
+  // 🔁 Update URL on filter change
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (department) params.set("dept", department);
+    if (professor) params.set("prof", professor);
+    if (maxDifficulty) params.set("max", maxDifficulty);
+    if (onlyWithRMP) params.set("onlyWithRMP", "true");
+
+    router.replace(`?${params.toString()}`, { scroll: false });
+  }, [department, professor, maxDifficulty, onlyWithRMP]);
 
   const filteredClasses = useMemo(() => {
     return classData.filter((cls) => {
@@ -44,15 +57,17 @@ export default function SuggestionsWithRMPFilter() {
         );
 
       const avgDifficulty = cls.professors.length
-        ? cls.professors.reduce((sum, p) => sum + p.avggrade, 0) /
-          cls.professors.length
+        ? cls.professors.reduce((sum, p) => sum + p.avggrade, 0) / cls.professors.length
         : 0;
 
       const matchesDifficulty =
         maxDifficulty === "" || avgDifficulty <= parseFloat(maxDifficulty);
 
-      const hasRMP = cls.professors.some((p) => rmpProfSet.has(normalize(p.prof)));
+      const hasRMP = cls.professors.some((p) =>
+        rmpProfSet.has(normalize(p.prof))
+      );
 
+      // 🔁 Only exclude if checkbox is checked
       return (
         matchesDepartment &&
         matchesProfessor &&
@@ -66,63 +81,35 @@ export default function SuggestionsWithRMPFilter() {
     <div
       style={{
         padding: "24px",
+        marginTop: "80px",
         maxWidth: "800px",
-        margin: "0 auto",
+        marginLeft: "auto",
+        marginRight: "auto",
         fontFamily: "'Poppins', sans-serif",
-        color: "#f0f0f5",
-        background:
-          "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-        borderRadius: "12px",
-        boxShadow:
-          "0 10px 15px -3px rgba(124, 58, 237, 0.5), 0 4px 6px -4px rgba(124, 58, 237, 0.4)",
+        color: "#ffffffff",
+        background: "#1b196bff",
+        borderRadius: "20px",
       }}
     >
-      <h1 style={{ fontSize: "28px", fontWeight: "700", marginBottom: "24px" }}>
+      <h1 style={{ fontSize: "28px", fontWeight: "700", marginBottom: "24px", textAlign: "center" }}>
         Class Suggestions
       </h1>
 
       {/* Filters */}
-      <div
-        style={{
-          marginBottom: "30px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "14px",
-        }}
-      >
+      <div style={{ marginBottom: "30px", display: "flex", flexDirection: "column", gap: "14px" }}>
         <input
           type="text"
           placeholder="Filter by Department (e.g. CS)"
           value={department}
-          onChange={handleInputChange(setDepartment)}
-          style={{
-            padding: "10px 14px",
-            borderRadius: "6px",
-            border: "none",
-            fontSize: "16px",
-            fontWeight: "500",
-            outline: "none",
-            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-            backgroundColor: "rgba(255 255 255 / 0.15)",
-            color: "#fafafa",
-          }}
+          onChange={(e) => setDepartment(e.target.value)}
+          style={inputStyle}
         />
         <input
           type="text"
           placeholder="Filter by Professor (e.g. Challen)"
           value={professor}
-          onChange={handleInputChange(setProfessor)}
-          style={{
-            padding: "10px 14px",
-            borderRadius: "6px",
-            border: "none",
-            fontSize: "16px",
-            fontWeight: "500",
-            outline: "none",
-            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-            backgroundColor: "rgba(255 255 255 / 0.15)",
-            color: "#fafafa",
-          }}
+          onChange={(e) => setProfessor(e.target.value)}
+          style={inputStyle}
         />
         <input
           type="number"
@@ -131,24 +118,14 @@ export default function SuggestionsWithRMPFilter() {
           step="0.1"
           placeholder="Max Difficulty, 1 (easy) - 5 (difficult)"
           value={maxDifficulty}
-          onChange={handleInputChange(setMaxDifficulty)}
-          style={{
-            padding: "10px 14px",
-            borderRadius: "6px",
-            border: "none",
-            fontSize: "16px",
-            fontWeight: "500",
-            outline: "none",
-            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-            backgroundColor: "rgba(255 255 255 / 0.15)",
-            color: "#fafafa",
-          }}
+          onChange={(e) => setMaxDifficulty(e.target.value)}
+          style={inputStyle}
         />
         <label style={{ fontSize: "16px", fontWeight: "600" }}>
           <input
             type="checkbox"
             checked={onlyWithRMP}
-            onChange={handleCheckboxChange}
+            onChange={() => setOnlyWithRMP((prev) => !prev)}
             style={{ marginRight: "10px", transform: "scale(1.2)" }}
           />
           Only show classes with RMP data
@@ -182,20 +159,13 @@ export default function SuggestionsWithRMPFilter() {
                       padding: "16px",
                       borderRadius: "10px",
                       backgroundColor: "rgba(255 255 255 / 0.15)",
-                      boxShadow:
-                        "0 4px 6px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.06)",
+                      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.06)",
                     }}
                   >
-                    <h2
-                      style={{
-                        fontSize: "20px",
-                        fontWeight: "700",
-                        marginBottom: "6px",
-                      }}
-                    >
+                    <h2 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "6px" }}>
                       <Link
                         href={`/classes/${slug}`}
-                        style={{ color: "#d8b4fe", textDecoration: "none" }}
+                        style={{ color: "#db8e22ff", textDecoration: "none" }}
                       >
                         {cls.code} — {cls.name}
                       </Link>
@@ -206,9 +176,7 @@ export default function SuggestionsWithRMPFilter() {
                     <p style={{ marginBottom: "8px" }}>
                       Avg GPA: <strong>{avgGpa}</strong>
                     </p>
-                    <p style={{ fontWeight: "600", marginBottom: "6px" }}>
-                      Professors:
-                    </p>
+                    <p style={{ fontWeight: "600", marginBottom: "6px" }}>Professors:</p>
                     <ul style={{ paddingLeft: "16px", marginTop: 0 }}>
                       {cls.professors.map((p, j) => (
                         <li key={j} style={{ marginBottom: "4px" }}>
@@ -226,3 +194,15 @@ export default function SuggestionsWithRMPFilter() {
     </div>
   );
 }
+
+const inputStyle: React.CSSProperties = {
+  padding: "10px 14px",
+  borderRadius: "6px",
+  border: "none",
+  fontSize: "16px",
+  fontWeight: "500",
+  outline: "none",
+  boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
+  backgroundColor: "rgba(255 255 255 / 0.15)",
+  color: "#fafafa",
+};

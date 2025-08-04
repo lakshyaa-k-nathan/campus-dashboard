@@ -482,6 +482,7 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$raw$2f$classes$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/data/raw/classes.json (json)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$processed$2f$merged_professors$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/data/processed/merged_professors.json (json)");
@@ -492,21 +493,37 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 // Normalize once
 const normalize = (name)=>name.toLowerCase().replace(/\./g, "").replace(/\s+/g, " ").trim();
-const rmpProfSet = new Set(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$processed$2f$merged_professors$2e$json__$28$json$29$__["default"].map((p)=>`${normalize(p.lastName)}, ${normalize(p.firstName)}`));
+// ✅ Only include profs with actual RMP data
+const rmpProfSet = new Set(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$processed$2f$merged_professors$2e$json__$28$json$29$__["default"].filter((p)=>p.avgRating !== null || p.avgDifficulty !== null || p.wouldTakeAgainPercent !== null || p.numRatings !== null).map((p)=>`${normalize(p.lastName)}, ${normalize(p.firstName)}`));
 function SuggestionsWithRMPFilter() {
     _s();
-    const [department, setDepartment] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [professor, setProfessor] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [maxDifficulty, setMaxDifficulty] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [onlyWithRMP, setOnlyWithRMP] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const handleInputChange = (setter)=>(e)=>{
-            setter(e.target.value);
-        };
-    const handleCheckboxChange = ()=>{
-        setOnlyWithRMP((prev)=>!prev);
-    };
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useSearchParams"])();
+    const [department, setDepartment] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(searchParams?.get("dept") || "");
+    const [professor, setProfessor] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(searchParams?.get("prof") || "");
+    const [maxDifficulty, setMaxDifficulty] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(searchParams?.get("max") || "");
+    const [onlyWithRMP, setOnlyWithRMP] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(searchParams?.get("onlyWithRMP") === "true");
+    // 🔁 Update URL on filter change
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "SuggestionsWithRMPFilter.useEffect": ()=>{
+            const params = new URLSearchParams();
+            if (department) params.set("dept", department);
+            if (professor) params.set("prof", professor);
+            if (maxDifficulty) params.set("max", maxDifficulty);
+            if (onlyWithRMP) params.set("onlyWithRMP", "true");
+            router.replace(`?${params.toString()}`, {
+                scroll: false
+            });
+        }
+    }["SuggestionsWithRMPFilter.useEffect"], [
+        department,
+        professor,
+        maxDifficulty,
+        onlyWithRMP
+    ]);
     const filteredClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "SuggestionsWithRMPFilter.useMemo[filteredClasses]": ()=>{
             return __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$raw$2f$classes$2e$json__$28$json$29$__["default"].filter({
@@ -522,6 +539,7 @@ function SuggestionsWithRMPFilter() {
                     const hasRMP = cls.professors.some({
                         "SuggestionsWithRMPFilter.useMemo[filteredClasses].hasRMP": (p)=>rmpProfSet.has(normalize(p.prof))
                     }["SuggestionsWithRMPFilter.useMemo[filteredClasses].hasRMP"]);
+                    // 🔁 Only exclude if checkbox is checked
                     return matchesDepartment && matchesProfessor && matchesDifficulty && (!onlyWithRMP || hasRMP);
                 }
             }["SuggestionsWithRMPFilter.useMemo[filteredClasses]"]);
@@ -535,25 +553,27 @@ function SuggestionsWithRMPFilter() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
             padding: "24px",
+            marginTop: "80px",
             maxWidth: "800px",
-            margin: "0 auto",
+            marginLeft: "auto",
+            marginRight: "auto",
             fontFamily: "'Poppins', sans-serif",
-            color: "#f0f0f5",
-            background: "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-            borderRadius: "12px",
-            boxShadow: "0 10px 15px -3px rgba(124, 58, 237, 0.5), 0 4px 6px -4px rgba(124, 58, 237, 0.4)"
+            color: "#ffffffff",
+            background: "#1b196bff",
+            borderRadius: "20px"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 style: {
                     fontSize: "28px",
                     fontWeight: "700",
-                    marginBottom: "24px"
+                    marginBottom: "24px",
+                    textAlign: "center"
                 },
                 children: "Class Suggestions"
             }, void 0, false, {
                 fileName: "[project]/pages/class-suggestions.tsx",
-                lineNumber: 80,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -568,42 +588,22 @@ function SuggestionsWithRMPFilter() {
                         type: "text",
                         placeholder: "Filter by Department (e.g. CS)",
                         value: department,
-                        onChange: handleInputChange(setDepartment),
-                        style: {
-                            padding: "10px 14px",
-                            borderRadius: "6px",
-                            border: "none",
-                            fontSize: "16px",
-                            fontWeight: "500",
-                            outline: "none",
-                            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-                            backgroundColor: "rgba(255 255 255 / 0.15)",
-                            color: "#fafafa"
-                        }
+                        onChange: (e)=>setDepartment(e.target.value),
+                        style: inputStyle
                     }, void 0, false, {
                         fileName: "[project]/pages/class-suggestions.tsx",
-                        lineNumber: 93,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                         type: "text",
                         placeholder: "Filter by Professor (e.g. Challen)",
                         value: professor,
-                        onChange: handleInputChange(setProfessor),
-                        style: {
-                            padding: "10px 14px",
-                            borderRadius: "6px",
-                            border: "none",
-                            fontSize: "16px",
-                            fontWeight: "500",
-                            outline: "none",
-                            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-                            backgroundColor: "rgba(255 255 255 / 0.15)",
-                            color: "#fafafa"
-                        }
+                        onChange: (e)=>setProfessor(e.target.value),
+                        style: inputStyle
                     }, void 0, false, {
                         fileName: "[project]/pages/class-suggestions.tsx",
-                        lineNumber: 110,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -613,21 +613,11 @@ function SuggestionsWithRMPFilter() {
                         step: "0.1",
                         placeholder: "Max Difficulty, 1 (easy) - 5 (difficult)",
                         value: maxDifficulty,
-                        onChange: handleInputChange(setMaxDifficulty),
-                        style: {
-                            padding: "10px 14px",
-                            borderRadius: "6px",
-                            border: "none",
-                            fontSize: "16px",
-                            fontWeight: "500",
-                            outline: "none",
-                            boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
-                            backgroundColor: "rgba(255 255 255 / 0.15)",
-                            color: "#fafafa"
-                        }
+                        onChange: (e)=>setMaxDifficulty(e.target.value),
+                        style: inputStyle
                     }, void 0, false, {
                         fileName: "[project]/pages/class-suggestions.tsx",
-                        lineNumber: 127,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -639,27 +629,27 @@ function SuggestionsWithRMPFilter() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 type: "checkbox",
                                 checked: onlyWithRMP,
-                                onChange: handleCheckboxChange,
+                                onChange: ()=>setOnlyWithRMP((prev)=>!prev),
                                 style: {
                                     marginRight: "10px",
                                     transform: "scale(1.2)"
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/pages/class-suggestions.tsx",
-                                lineNumber: 148,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this),
                             "Only show classes with RMP data"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/class-suggestions.tsx",
-                        lineNumber: 147,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/class-suggestions.tsx",
-                lineNumber: 85,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             (department.trim() !== "" || professor.trim() !== "") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -672,7 +662,7 @@ function SuggestionsWithRMPFilter() {
                     children: "No classes match your filters."
                 }, void 0, false, {
                     fileName: "[project]/pages/class-suggestions.tsx",
-                    lineNumber: 162,
+                    lineNumber: 139,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                     style: {
@@ -700,7 +690,7 @@ function SuggestionsWithRMPFilter() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: `/classes/${slug}`,
                                         style: {
-                                            color: "#d8b4fe",
+                                            color: "#db8e22ff",
                                             textDecoration: "none"
                                         },
                                         children: [
@@ -710,12 +700,12 @@ function SuggestionsWithRMPFilter() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/class-suggestions.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 166,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/class-suggestions.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 165,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -728,13 +718,13 @@ function SuggestionsWithRMPFilter() {
                                             children: cls.subject
                                         }, void 0, false, {
                                             fileName: "[project]/pages/class-suggestions.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 174,
                                             columnNumber: 35
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/class-suggestions.tsx",
-                                    lineNumber: 203,
+                                    lineNumber: 173,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -747,13 +737,13 @@ function SuggestionsWithRMPFilter() {
                                             children: avgGpa
                                         }, void 0, false, {
                                             fileName: "[project]/pages/class-suggestions.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 177,
                                             columnNumber: 32
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/class-suggestions.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 176,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -764,7 +754,7 @@ function SuggestionsWithRMPFilter() {
                                     children: "Professors:"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/class-suggestions.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 179,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -783,36 +773,52 @@ function SuggestionsWithRMPFilter() {
                                             ]
                                         }, j, true, {
                                             fileName: "[project]/pages/class-suggestions.tsx",
-                                            lineNumber: 214,
+                                            lineNumber: 182,
                                             columnNumber: 25
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/class-suggestions.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 180,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/pages/class-suggestions.tsx",
-                            lineNumber: 178,
+                            lineNumber: 155,
                             columnNumber: 19
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/pages/class-suggestions.tsx",
-                    lineNumber: 166,
+                    lineNumber: 143,
                     columnNumber: 13
                 }, this)
             }, void 0, false)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/class-suggestions.tsx",
-        lineNumber: 66,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }
-_s(SuggestionsWithRMPFilter, "hyyzGe1Wrs/QtQQCxtiJKm6BHtA=");
+_s(SuggestionsWithRMPFilter, "JRDCZ1DkHE92quArbRWzZcSGNeg=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useSearchParams"]
+    ];
+});
 _c = SuggestionsWithRMPFilter;
+const inputStyle = {
+    padding: "10px 14px",
+    borderRadius: "6px",
+    border: "none",
+    fontSize: "16px",
+    fontWeight: "500",
+    outline: "none",
+    boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
+    backgroundColor: "rgba(255 255 255 / 0.15)",
+    color: "#fafafa"
+};
 var _c;
 __turbopack_context__.k.register(_c, "SuggestionsWithRMPFilter");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

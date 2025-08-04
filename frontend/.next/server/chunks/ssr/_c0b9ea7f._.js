@@ -69,18 +69,28 @@ function Professors() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
         className: "p-6 max-w-4xl mx-auto rounded-lg",
         style: {
+            padding: "24px",
+            marginTop: "80px",
+            maxWidth: "800px",
+            marginLeft: "auto",
+            marginRight: "auto",
             fontFamily: "'Poppins', sans-serif",
-            background: "linear-gradient(135deg, #4c1d95, #7c3aed, #a78bfa, #c4b5fd)",
-            boxShadow: "0 12px 20px -4px rgba(124, 58, 237, 0.6), 0 6px 12px -6px rgba(124, 58, 237, 0.5)",
-            color: "#f0f0f5"
+            color: "#ffffffff",
+            background: "#1b196bff",
+            borderRadius: "20px"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                className: "text-3xl font-extrabold mb-6 text-center text-purple-100 drop-shadow-md",
+                style: {
+                    fontSize: "28px",
+                    fontWeight: "700",
+                    marginBottom: "24px",
+                    textAlign: "center"
+                },
                 children: "Professors"
             }, void 0, false, {
                 fileName: "[project]/pages/professors/index.tsx",
-                lineNumber: 80,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
@@ -89,24 +99,24 @@ function Professors() {
                 children: "Select Subject:"
             }, void 0, false, {
                 fileName: "[project]/pages/professors/index.tsx",
-                lineNumber: 85,
+                lineNumber: 88,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
                 id: "subject-select",
-                className: "mb-4 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900",
+                className: "mb-4 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-white-300 text-orange-400",
                 value: selectedSubject,
                 onChange: (e)=>{
                     setSelectedSubject(e.target.value);
-                    setSearchTerm(""); // reset search on subject change
+                    setSearchTerm("");
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
                         value: "",
-                        children: "-- Choose a subject --"
+                        children: "Choose a subject --"
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/index.tsx",
-                        lineNumber: 100,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     subjects.map((subject)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
@@ -114,13 +124,13 @@ function Professors() {
                             children: subject
                         }, subject, false, {
                             fileName: "[project]/pages/professors/index.tsx",
-                            lineNumber: 102,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/professors/index.tsx",
-                lineNumber: 91,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             selectedSubject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
@@ -131,32 +141,32 @@ function Professors() {
                         children: "Search Professors:"
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/index.tsx",
-                        lineNumber: 111,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                         id: "prof-search",
                         type: "text",
-                        className: "mb-6 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-purple-400 text-gray-900",
+                        className: "mb-6 p-2 border rounded w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-white-300 text-orange-400",
                         placeholder: "Type a professor's name",
                         value: searchTerm,
                         onChange: (e)=>setSearchTerm(e.target.value)
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/index.tsx",
-                        lineNumber: 117,
+                        lineNumber: 120,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true),
             selectedSubject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "mb-6 text-lg text-purple-100",
+                className: "mb-6 text-lg text-white-100",
                 children: [
                     "Department average GPA for ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                         children: selectedSubject
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/index.tsx",
-                        lineNumber: 131,
+                        lineNumber: 134,
                         columnNumber: 38
                     }, this),
                     ":",
@@ -165,7 +175,7 @@ function Professors() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/professors/index.tsx",
-                lineNumber: 130,
+                lineNumber: 133,
                 columnNumber: 9
             }, this),
             selectedSubject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -176,36 +186,55 @@ function Professors() {
                         children: "No professors found matching your search."
                     }, void 0, false, {
                         fileName: "[project]/pages/professors/index.tsx",
-                        lineNumber: 140,
+                        lineNumber: 143,
                         columnNumber: 13
                     }, this),
-                    filteredProfessors.map((prof)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                            className: "border border-purple-300 p-4 rounded hover:shadow-lg transition-shadow bg-purple-700/30",
+                    filteredProfessors.map((prof)=>{
+                        const diff = departmentAverage ? prof.avggrade - departmentAverage : 0;
+                        const isAbove = diff > 0;
+                        const isEqual = diff === 0;
+                        const arrow = isEqual ? "—" : isAbove ? "▲" : "▼";
+                        const arrowColor = isEqual ? "text-gray-400" : isAbove ? "text-green-400" : "text-red-400";
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                            className: "border border-white-300 p-4 rounded hover:shadow-lg transition-shadow bg-white-700/30",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: `/professors/${encodeURIComponent(prof.prof)}`,
-                                    className: "text-purple-300 hover:underline font-semibold",
+                                    className: "text-white-300 hover:underline font-semibold",
                                     children: prof.prof
                                 }, void 0, false, {
                                     fileName: "[project]/pages/professors/index.tsx",
-                                    lineNumber: 147,
-                                    columnNumber: 15
+                                    lineNumber: 161,
+                                    columnNumber: 17
                                 }, this),
                                 " ",
                                 "- Avg Grade: ",
                                 prof.avggrade.toFixed(2),
                                 " ",
-                                departmentAverage && `(${(prof.avggrade - departmentAverage).toFixed(2)} from dept avg)`
+                                departmentAverage !== null && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    className: `ml-2 font-semibold ${arrowColor}`,
+                                    children: [
+                                        arrow,
+                                        " ",
+                                        Math.abs(diff).toFixed(2),
+                                        " from dept avg"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/pages/professors/index.tsx",
+                                    lineNumber: 169,
+                                    columnNumber: 19
+                                }, this)
                             ]
                         }, prof.prof, true, {
                             fileName: "[project]/pages/professors/index.tsx",
-                            lineNumber: 143,
-                            columnNumber: 13
-                        }, this))
+                            lineNumber: 157,
+                            columnNumber: 15
+                        }, this);
+                    })
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/professors/index.tsx",
-                lineNumber: 138,
+                lineNumber: 141,
                 columnNumber: 9
             }, this)
         ]

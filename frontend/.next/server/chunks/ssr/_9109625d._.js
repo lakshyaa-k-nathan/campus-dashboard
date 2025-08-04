@@ -49,34 +49,67 @@ function ProfSearch() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: "min-h-screen p-6 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white font-poppins",
         style: {
-            fontFamily: "'Poppins', sans-serif"
+            paddingTop: "20px",
+            padding: "24px",
+            marginTop: "0px",
+            maxWidth: "800px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            fontFamily: "'Poppins', sans-serif",
+            color: "#ffffffff",
+            background: "#1b196bff",
+            borderRadius: "20px"
         },
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
+                style: {
+                    fontSize: "28px",
+                    fontWeight: "700",
+                    marginBottom: "24px",
+                    textAlign: "center"
+                },
+                children: "Class Search"
+            }, void 0, false, {
+                fileName: "[project]/components/ClassSearch.tsx",
+                lineNumber: 70,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                 type: "text",
                 placeholder: "Search classes by name...",
                 value: query,
                 onChange: (e)=>setQuery(e.target.value),
-                className: "w-full p-3 mb-6 rounded-md bg-indigo-700 placeholder-indigo-300 focus:outline-none focus:ring-2 focus:ring-pink-400 transition duration-300"
+                className: "w-full p-3 mb-6 rounded-md bg-blue-700 placeholder-indigo-300 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-300",
+                style: {
+                    padding: "10px 14px",
+                    borderRadius: "6px",
+                    border: "none",
+                    fontSize: "16px",
+                    fontWeight: "500",
+                    outline: "none",
+                    boxShadow: "0 0 6px rgba(255, 255, 255, 0.2)",
+                    backgroundColor: "rgba(255 255 255 / 0.15)",
+                    color: "#fafafa"
+                }
             }, void 0, false, {
                 fileName: "[project]/components/ClassSearch.tsx",
-                lineNumber: 59,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "text-pink-300 font-semibold",
+                className: "text-orange-400 font-semibold",
                 children: "Loading..."
             }, void 0, false, {
                 fileName: "[project]/components/ClassSearch.tsx",
-                lineNumber: 67,
+                lineNumber: 93,
                 columnNumber: 19
             }, this),
             error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "text-red-400 font-semibold",
+                className: "text-orange-200 font-semibold",
                 children: error
             }, void 0, false, {
                 fileName: "[project]/components/ClassSearch.tsx",
-                lineNumber: 68,
+                lineNumber: 94,
                 columnNumber: 17
             }, this),
             !loading && sortedClasses.length === 0 && query.trim() !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -84,14 +117,14 @@ function ProfSearch() {
                 children: "No classes found."
             }, void 0, false, {
                 fileName: "[project]/components/ClassSearch.tsx",
-                lineNumber: 71,
+                lineNumber: 97,
                 columnNumber: 9
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+            query.trim() !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
                 children: sortedClasses.map((cls)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                         className: "mb-6 border-b border-indigo-600 pb-3",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                            className: "text-xl font-semibold hover:text-pink-400 transition duration-300",
+                            className: "text-xl font-semibold hover:text-orange-400 transition duration-300",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: `/classes/${cls.code}`,
                                 children: [
@@ -101,23 +134,23 @@ function ProfSearch() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ClassSearch.tsx",
-                                lineNumber: 78,
-                                columnNumber: 15
+                                lineNumber: 105,
+                                columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ClassSearch.tsx",
-                            lineNumber: 77,
-                            columnNumber: 13
+                            lineNumber: 104,
+                            columnNumber: 9
                         }, this)
                     }, cls.id, false, {
                         fileName: "[project]/components/ClassSearch.tsx",
-                        lineNumber: 76,
-                        columnNumber: 11
+                        lineNumber: 103,
+                        columnNumber: 7
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/ClassSearch.tsx",
-                lineNumber: 74,
-                columnNumber: 7
+                lineNumber: 101,
+                columnNumber: 3
             }, this)
         ]
     }, void 0, true, {
@@ -142,19 +175,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ClassSearch$2e
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
         className: "p-6",
+        style: {
+            paddingTop: "80px"
+        },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                className: "text-2xl font-bold mb-4",
-                children: "Campus Dashboard"
+                className: "text-2xl font-bold mb-4 text-center"
             }, void 0, false, {
                 fileName: "[project]/pages/index.tsx",
                 lineNumber: 6,
-                columnNumber: 7
+                columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ClassSearch$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/index.tsx",
                 lineNumber: 7,
-                columnNumber: 7
+                columnNumber: 3
             }, this)
         ]
     }, void 0, true, {
