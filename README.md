@@ -5,4 +5,5 @@ Created a website to help UIUC students research classes supplemented with RateM
 [https://campus-dashboard-y7lr.vercel.app/](https://campus-dashboard-smoky.vercel.app/)
 
 
-<img width="1918" height="924" alt="image" src="https://github.com/user-attachments/assets/9e82b39a-6549-43fa-825a-d9ad2f1f560a" />
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/2a1e304c-69a2-435a-96f2-2f3c77068512" />
+
